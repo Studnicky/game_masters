@@ -1,0 +1,566 @@
+{
+    "CHARACTER_BLANCHE": {
+        "trainerName": "combat_blanche",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_blanche_title",
+        "trainerQuote": "combat_blanche_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "backdropImageBundle": "combat_blanche_backdrop",
+        "modelName": "combat_blanche"
+    },
+    "CHARACTER_BUG_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_bug",
+        "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_bug"
+    },
+    "CHARACTER_BUG_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_bug",
+        "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_bug",
+        "isMale": true
+    },
+    "CHARACTER_CANDELA": {
+        "trainerName": "combat_candela",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_candela_title",
+        "trainerQuote": "combat_candela_quote",
+        "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Candela.png",
+        "backdropImageBundle": "combat_candela_backdrop",
+        "modelName": "combat_candela"
+    },
+    "CHARACTER_DARK_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_dark",
+        "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_dark"
+    },
+    "CHARACTER_DARK_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_dark",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_dark",
+        "isMale": true
+    },
+    "CHARACTER_DECOY_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_decoy_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_decoy_title",
+        "trainerQuote": "combat_grunt_decoy_quote",
+        "iconUrl": "https://prodholoholo-public-images.nianticlabs.com/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_normal"
+    },
+    "CHARACTER_DECOY_GRUNT_MALE": {
+        "trainerName": "combat_grunt_decoy_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_decoy_title",
+        "trainerQuote": "combat_grunt_decoy_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_normal",
+        "isMale": true
+    },
+    "CHARACTER_DRAGON_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_dragon",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_dragon"
+    },
+    "CHARACTER_DRAGON_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_dragon",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_dragon",
+        "isMale": true
+    },
+    "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_electric",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_electric"
+    },
+    "CHARACTER_ELECTRIC_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_electric",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_electric",
+        "isMale": true
+    },
+    "CHARACTER_EXECUTIVE_ARLO": {
+        "trainerName": "combat_arlo_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_arlo_title",
+        "trainerQuote": "combat_arlo_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Arlo.png",
+        "modelName": "combat_execred",
+        "tutorialOnLossString": "type_tutorial_steel",
+        "isMale": true
+    },
+    "CHARACTER_EXECUTIVE_CLIFF": {
+        "trainerName": "combat_cliff_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_cliff_title",
+        "trainerQuote": "combat_cliff_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Cliff.png",
+        "modelName": "combat_execblue",
+        "tutorialOnLossString": "type_tutorial_rock",
+        "isMale": true
+    },
+    "CHARACTER_EXECUTIVE_SIERRA": {
+        "trainerName": "combat_sierra_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_sierra_title",
+        "trainerQuote": "combat_sierra_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Sierra.png",
+        "modelName": "combat_execyellow",
+        "tutorialOnLossString": "type_tutorial_dark"
+    },
+    "CHARACTER_FAIRY_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_fairy",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_fairy"
+    },
+    "CHARACTER_FAIRY_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_fairy",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_fairy",
+        "isMale": true
+    },
+    "CHARACTER_FIGHTING_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_fighting",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_fighting"
+    },
+    "CHARACTER_FIGHTING_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_fighting",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_fighting",
+        "isMale": true
+    },
+    "CHARACTER_FIRE_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_fire",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_fire"
+    },
+    "CHARACTER_FIRE_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_fire",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_fire",
+        "isMale": true
+    },
+    "CHARACTER_FLYING_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_flying",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_flying"
+    },
+    "CHARACTER_FLYING_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_flying",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_flying",
+        "isMale": true
+    },
+    "CHARACTER_GHOST_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_ghost",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_ghost"
+    },
+    "CHARACTER_GHOST_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_ghost",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_ghost",
+        "isMale": true
+    },
+    "CHARACTER_GIOVANNI": {
+        "trainerName": "combat_giovanni_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_giovanni_title",
+        "trainerQuote": "combat_giovanni_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+        "modelName": "combat_giovanni",
+        "tutorialOnLossString": "type_tutorial_ground",
+        "isMale": true
+    },
+    "CHARACTER_GRASS_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_grass",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_grass"
+    },
+    "CHARACTER_GRASS_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_grass",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_grass",
+        "isMale": true
+    },
+    "CHARACTER_GROUND_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_ground",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_ground"
+    },
+    "CHARACTER_GROUND_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_ground",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_ground",
+        "isMale": true
+    },
+    "CHARACTER_GRUNTB_FEMALE": {
+        "trainerName": "combat_grunt_bf_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "grunt_bf_combat_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+        "modelName": "f_combat_gruntb",
+        "tutorialOnLossString": "{grunt_dynamic_tutorial}"
+    },
+    "CHARACTER_GRUNTB_MALE": {
+        "trainerName": "combat_grunt_bm_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "grunt_bm_combat_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Giovanni.png",
+        "modelName": "m_combat_gruntb",
+        "tutorialOnLossString": "{grunt_dynamic_tutorial}",
+        "isMale": true
+    },
+    "CHARACTER_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "{grunt_dynamic_quote}",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "{grunt_dynamic_tutorial}"
+    },
+    "CHARACTER_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "{grunt_dynamic_quote}",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "{grunt_dynamic_tutorial}",
+        "isMale": true
+    },
+    "CHARACTER_ICE_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_ice",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_ice"
+    },
+    "CHARACTER_ICE_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_ice",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_ice",
+        "isMale": true
+    },
+    "CHARACTER_METAL_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_steel",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_steel"
+    },
+    "CHARACTER_METAL_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_steel",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_steel",
+        "isMale": true
+    },
+    "CHARACTER_NORMAL_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_normal",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_normal"
+    },
+    "CHARACTER_NORMAL_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_normal",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_normal",
+        "isMale": true
+    },
+    "CHARACTER_POISON_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_poison",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_poison"
+    },
+    "CHARACTER_POISON_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_poison",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_poison",
+        "isMale": true
+    },
+    "CHARACTER_PSYCHIC_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_psychic",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_psychic"
+    },
+    "CHARACTER_PSYCHIC_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_psychic",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_psychic",
+        "isMale": true
+    },
+    "CHARACTER_ROCK_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_rock",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_rock"
+    },
+    "CHARACTER_ROCK_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_rock",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_rock",
+        "isMale": true
+    },
+    "CHARACTER_SPARK": {
+        "trainerName": "combat_spark",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_spark_title",
+        "trainerQuote": "combat_spark_quote",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Spark.png",
+        "backdropImageBundle": "combat_spark_backdrop",
+        "modelName": "combat_spark",
+        "isMale": true
+    },
+    "CHARACTER_WATER_GRUNT_FEMALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_water",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "f_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_water"
+    },
+    "CHARACTER_WATER_GRUNT_MALE": {
+        "trainerName": "combat_grunt_name",
+        "avatar": {
+            "avatar": 2
+        },
+        "trainerTitle": "combat_grunt_title",
+        "trainerQuote": "combat_grunt_quote_water",
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/Icon_Blanche.png",
+        "modelName": "m_combat_grunt",
+        "tutorialOnLossString": "type_tutorial_water",
+        "isMale": true
+    }
+}

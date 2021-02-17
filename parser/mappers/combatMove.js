@@ -71,7 +71,6 @@ function combatMove(key, dataArray) {
 		return move(key, item);
 	});
 
-	debugger;
 
 	return mappedItems;
 }

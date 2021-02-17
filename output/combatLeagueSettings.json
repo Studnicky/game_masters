@@ -1,0 +1,7 @@
+{
+    "combatLeagueTemplateId": [
+        "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "COMBAT_LEAGUE_DEFAULT_ULTRA",
+        "COMBAT_LEAGUE_DEFAULT_MASTER"
+    ]
+}

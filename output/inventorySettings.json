@@ -1,0 +1,12 @@
+{
+    "maxPokemon": 4000,
+    "maxBagItems": 3000,
+    "basePokemon": 300,
+    "baseBagItems": 350,
+    "baseEggs": 9,
+    "maxTeamChanges": 1,
+    "teamChangeItemResetPeriodInDays": "365",
+    "maxItemBoostDurationMs": "86400000",
+    "enableEggsNotInventory": true,
+    "specialEggOverflowSpots": 3
+}

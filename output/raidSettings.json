@@ -1,0 +1,14 @@
+{
+    "remoteRaidEnabled": true,
+    "maxRemoteRaidPasses": 3,
+    "remoteDamageModifier": 1,
+    "remoteRaidsMinPlayerLevel": 5,
+    "maxNumFriendInvites": 5,
+    "friendInviteCutoffTimeSec": 20,
+    "canInviteFriendsInPerson": true,
+    "canInviteFriendsRemotely": true,
+    "maxPlayersPerLobby": 20,
+    "maxRemotePlayersPerLobby": 10,
+    "inviteCooldownDurationMillis": "30000",
+    "maxNumFriendInvitesPerAction": 5
+}

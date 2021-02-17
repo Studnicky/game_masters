@@ -1,0 +1,7 @@
+{
+    "numHungerPointsRequiredForFull": 6,
+    "decayPointsPerBucket": 2,
+    "millisecondsPerBucket": "3600000",
+    "cooldownDurationMs": "3600000",
+    "decayDurationAfterFullMs": "86400000"
+}

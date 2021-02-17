@@ -1,0 +1,36 @@
+{
+    "BUDDY_EMOTION_LEVEL_0": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_0",
+        "emotionAnimation": "BUDDY_ANIMATION_HATE"
+    },
+    "BUDDY_EMOTION_LEVEL_1": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_1",
+        "minEmotionPointsRequired": 1,
+        "emotionAnimation": "BUDDY_ANIMATION_HATE"
+    },
+    "BUDDY_EMOTION_LEVEL_2": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_2",
+        "minEmotionPointsRequired": 2,
+        "emotionAnimation": "BUDDY_ANIMATION_HAPPY"
+    },
+    "BUDDY_EMOTION_LEVEL_3": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_3",
+        "minEmotionPointsRequired": 4,
+        "emotionAnimation": "BUDDY_ANIMATION_HAPPY"
+    },
+    "BUDDY_EMOTION_LEVEL_4": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_4",
+        "minEmotionPointsRequired": 8,
+        "emotionAnimation": "BUDDY_ANIMATION_HAPPY"
+    },
+    "BUDDY_EMOTION_LEVEL_5": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_5",
+        "minEmotionPointsRequired": 16,
+        "emotionAnimation": "BUDDY_ANIMATION_HAPPY"
+    },
+    "BUDDY_EMOTION_LEVEL_6": {
+        "emotionLevel": "BUDDY_EMOTION_LEVEL_6",
+        "minEmotionPointsRequired": 32,
+        "emotionAnimation": "BUDDY_ANIMATION_HAPPY"
+    }
+}

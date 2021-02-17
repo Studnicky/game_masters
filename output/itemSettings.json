@@ -1,0 +1,564 @@
+{
+    "ITEM_BLUK_BERRY": {
+        "itemId": "ITEM_BLUK_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 100,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CAP_NO_MOVEMENT"
+            ],
+            "itemEffectPercent": [
+                1
+            ],
+            "growthPercent": 0.1
+        }
+    },
+    "ITEM_DRAGON_SCALE": {
+        "itemId": "ITEM_DRAGON_SCALE",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_EVENT_TICKET_PINK": {
+        "itemId": "ITEM_EVENT_TICKET_PINK",
+        "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+        "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+        "globalEventTicket": {
+            "eventStartTime": "2021-02-07T11:00:00",
+            "eventEndTime": "2021-02-07T17:00:00",
+            "itemBagDescriptionKey": "item_event_ticket_pink_details",
+            "clientEventStartTimeUtcMs": "1612695600000",
+            "clientEventEndTimeUtcMs": "1612717200000"
+        }
+    },
+    "ITEM_FREE_RAID_TICKET": {
+        "itemId": "ITEM_FREE_RAID_TICKET",
+        "itemType": "ITEM_TYPE_RAID_TICKET",
+        "category": "ITEM_CATEGORY_RAID_TICKET",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_FRIEND_GIFT_BOX": {
+        "itemId": "ITEM_FRIEND_GIFT_BOX",
+        "itemType": "ITEM_TYPE_FRIEND_GIFT_BOX",
+        "category": "ITEM_CATEGORY_FRIEND_GIFT_BOX",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_GEN4_EVOLUTION_STONE": {
+        "itemId": "ITEM_GEN4_EVOLUTION_STONE",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_GEN5_EVOLUTION_STONE": {
+        "itemId": "ITEM_GEN5_EVOLUTION_STONE",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_GIOVANNI_MAP": {
+        "itemId": "ITEM_GIOVANNI_MAP",
+        "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+        "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+        "dropTrainerLevel": 8,
+        "incidentTicket": {
+            "ignoreFullInventory": true
+        }
+    },
+    "ITEM_GLOBAL_EVENT_TICKET": {
+        "itemId": "ITEM_GLOBAL_EVENT_TICKET",
+        "itemType": "ITEM_TYPE_GLOBAL_EVENT_TICKET",
+        "category": "ITEM_CATEGORY_GLOBAL_EVENT_TICKET",
+        "globalEventTicket": {
+            "eventStartTime": "2021-02-20T09:00:00",
+            "eventEndTime": "2021-02-20T21:00:00",
+            "itemBagDescriptionKey": "item_global_event_ticket_details_no_version_selected",
+            "eventVariantBadges": [
+                5076,
+                5075
+            ],
+            "eventVariantTitleStringKeys": [
+                "gotour2021_choose_version_title_red",
+                "gotour2021_choose_version_title_green"
+            ],
+            "eventVariantDescriptionStringKeys": [
+                "gotour2021_choose_version_desc",
+                "gotour2021_choose_version_desc"
+            ],
+            "itemBagDescriptionVariantSelected": "item_global_event_ticket_details_version_selected",
+            "eventVariantButtonStringKeys": [
+                "gotour2021_choose_red",
+                "gotour2021_choose_green"
+            ],
+            "clientEventStartTimeUtcMs": "1613811600000",
+            "clientEventEndTimeUtcMs": "1613854800000"
+        }
+    },
+    "ITEM_GOLDEN_PINAP_BERRY": {
+        "itemId": "ITEM_GOLDEN_PINAP_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 20,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CANDY_AWARD",
+                "ITEM_EFFECT_CAP_CHANCE_SINGLE_THROW"
+            ],
+            "itemEffectPercent": [
+                2.3334,
+                1.8
+            ],
+            "growthPercent": 0.1,
+            "berryMultiplier": 2,
+            "remoteBerryMultiplier": 0.5,
+            "numBuddyAffectionPoints": 2,
+            "mapDurationMs": "10800000",
+            "timeFullDurationMs": "10800000",
+            "numBuddyHungerPoints": 6
+        }
+    },
+    "ITEM_GOLDEN_RAZZ_BERRY": {
+        "itemId": "ITEM_GOLDEN_RAZZ_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 10,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CAP_CHANCE_SINGLE_THROW",
+                "ITEM_EFFECT_FULL_MOTIVATION"
+            ],
+            "itemEffectPercent": [
+                2.5,
+                1
+            ],
+            "growthPercent": 0.1,
+            "berryMultiplier": 1,
+            "remoteBerryMultiplier": 1,
+            "numBuddyAffectionPoints": 2,
+            "mapDurationMs": "10800000",
+            "timeFullDurationMs": "10800000",
+            "numBuddyHungerPoints": 6
+        }
+    },
+    "ITEM_GREAT_BALL": {
+        "itemId": "ITEM_GREAT_BALL",
+        "itemType": "ITEM_TYPE_POKEBALL",
+        "category": "ITEM_CATEGORY_POKEBALL",
+        "dropTrainerLevel": 12
+    },
+    "ITEM_HYPER_POTION": {
+        "itemId": "ITEM_HYPER_POTION",
+        "itemType": "ITEM_TYPE_POTION",
+        "category": "ITEM_CATEGORY_MEDICINE",
+        "dropTrainerLevel": 15,
+        "potion": {
+            "staAmount": 200
+        }
+    },
+    "ITEM_INCENSE_BELUGA_BOX": {
+        "itemId": "ITEM_INCENSE_BELUGA_BOX",
+        "itemType": "ITEM_TYPE_INCENSE",
+        "category": "ITEM_CATEGORY_INCENSE",
+        "dropTrainerLevel": 1,
+        "incense": {
+            "incenseLifetimeSeconds": 3600,
+            "spawnTableProbability": 1
+        }
+    },
+    "ITEM_INCENSE_ORDINARY": {
+        "itemId": "ITEM_INCENSE_ORDINARY",
+        "itemType": "ITEM_TYPE_INCENSE",
+        "category": "ITEM_CATEGORY_INCENSE",
+        "dropTrainerLevel": 1,
+        "incense": {
+            "incenseLifetimeSeconds": 3600
+        }
+    },
+    "ITEM_INCUBATOR_BASIC": {
+        "itemId": "ITEM_INCUBATOR_BASIC",
+        "itemType": "ITEM_TYPE_INCUBATOR",
+        "category": "ITEM_CATEGORY_INCUBATOR",
+        "dropTrainerLevel": 1,
+        "eggIncubator": {
+            "incubatorType": "INCUBATOR_DISTANCE",
+            "uses": 3,
+            "distanceMultiplier": 1
+        }
+    },
+    "ITEM_INCUBATOR_BASIC_UNLIMITED": {
+        "itemId": "ITEM_INCUBATOR_BASIC_UNLIMITED",
+        "itemType": "ITEM_TYPE_INCUBATOR",
+        "category": "ITEM_CATEGORY_INCUBATOR",
+        "dropTrainerLevel": 100,
+        "eggIncubator": {
+            "incubatorType": "INCUBATOR_DISTANCE",
+            "distanceMultiplier": 1
+        }
+    },
+    "ITEM_INCUBATOR_SUPER": {
+        "itemId": "ITEM_INCUBATOR_SUPER",
+        "itemType": "ITEM_TYPE_INCUBATOR",
+        "category": "ITEM_CATEGORY_INCUBATOR",
+        "dropTrainerLevel": 1,
+        "eggIncubator": {
+            "incubatorType": "INCUBATOR_DISTANCE",
+            "uses": 3,
+            "distanceMultiplier": 0.6666667
+        }
+    },
+    "ITEM_ITEM_STORAGE_UPGRADE": {
+        "itemId": "ITEM_ITEM_STORAGE_UPGRADE",
+        "itemType": "ITEM_TYPE_INVENTORY_UPGRADE",
+        "category": "ITEM_CATEGORY_INVENTORY_UPGRADE",
+        "dropTrainerLevel": 100,
+        "inventoryUpgrade": {
+            "additionalStorage": 50,
+            "upgradeType": "INCREASE_ITEM_STORAGE"
+        }
+    },
+    "ITEM_KINGS_ROCK": {
+        "itemId": "ITEM_KINGS_ROCK",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_LEADER_MAP": {
+        "itemId": "ITEM_LEADER_MAP",
+        "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+        "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+        "dropTrainerLevel": 8,
+        "incidentTicket": {
+            "ignoreFullInventory": true
+        }
+    },
+    "ITEM_LEADER_MAP_FRAGMENT": {
+        "itemId": "ITEM_LEADER_MAP_FRAGMENT",
+        "itemType": "ITEM_TYPE_INCIDENT_TICKET",
+        "category": "ITEM_CATEGORY_INCIDENT_TICKET",
+        "dropTrainerLevel": 8,
+        "incidentTicket": {
+            "upgradeRequirementCount": 6,
+            "upgradedItem": "ITEM_LEADER_MAP"
+        }
+    },
+    "ITEM_LEGENDARY_RAID_TICKET": {
+        "itemId": "ITEM_LEGENDARY_RAID_TICKET",
+        "itemType": "ITEM_TYPE_RAID_TICKET",
+        "category": "ITEM_CATEGORY_RAID_TICKET",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_LUCKY_EGG": {
+        "itemId": "ITEM_LUCKY_EGG",
+        "itemType": "ITEM_TYPE_XP_BOOST",
+        "category": "ITEM_CATEGORY_XP_BOOST",
+        "dropTrainerLevel": 1,
+        "xpBoost": {
+            "xpMultiplier": 2,
+            "boostDurationMs": 1800000
+        }
+    },
+    "ITEM_MASTER_BALL": {
+        "itemId": "ITEM_MASTER_BALL",
+        "itemType": "ITEM_TYPE_POKEBALL",
+        "category": "ITEM_CATEGORY_POKEBALL",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_MAX_POTION": {
+        "itemId": "ITEM_MAX_POTION",
+        "itemType": "ITEM_TYPE_POTION",
+        "category": "ITEM_CATEGORY_MEDICINE",
+        "dropTrainerLevel": 25,
+        "potion": {
+            "staPercent": 1
+        }
+    },
+    "ITEM_MAX_REVIVE": {
+        "itemId": "ITEM_MAX_REVIVE",
+        "itemType": "ITEM_TYPE_REVIVE",
+        "category": "ITEM_CATEGORY_MEDICINE",
+        "dropTrainerLevel": 30,
+        "revive": {
+            "staPercent": 1
+        }
+    },
+    "ITEM_METAL_COAT": {
+        "itemId": "ITEM_METAL_COAT",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_MOVE_REROLL_ELITE_FAST_ATTACK": {
+        "itemId": "ITEM_MOVE_REROLL_ELITE_FAST_ATTACK",
+        "itemType": "ITEM_TYPE_MOVE_REROLL",
+        "category": "ITEM_CATEGORY_MOVE_REROLL",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK": {
+        "itemId": "ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK",
+        "itemType": "ITEM_TYPE_MOVE_REROLL",
+        "category": "ITEM_CATEGORY_MOVE_REROLL",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_MOVE_REROLL_FAST_ATTACK": {
+        "itemId": "ITEM_MOVE_REROLL_FAST_ATTACK",
+        "itemType": "ITEM_TYPE_MOVE_REROLL",
+        "category": "ITEM_CATEGORY_MOVE_REROLL",
+        "dropTrainerLevel": 15
+    },
+    "ITEM_MOVE_REROLL_SPECIAL_ATTACK": {
+        "itemId": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+        "itemType": "ITEM_TYPE_MOVE_REROLL",
+        "category": "ITEM_CATEGORY_MOVE_REROLL",
+        "dropTrainerLevel": 25
+    },
+    "ITEM_NANAB_BERRY": {
+        "itemId": "ITEM_NANAB_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 4,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CAP_TARGET_SLOW"
+            ],
+            "itemEffectPercent": [
+                0
+            ],
+            "growthPercent": 0.1,
+            "berryMultiplier": 1.25,
+            "remoteBerryMultiplier": 0.3125,
+            "numBuddyAffectionPoints": 1,
+            "mapDurationMs": "3600000",
+            "timeFullDurationMs": "3600000",
+            "numBuddyHungerPoints": 2
+        }
+    },
+    "ITEM_PAID_RAID_TICKET": {
+        "itemId": "ITEM_PAID_RAID_TICKET",
+        "itemType": "ITEM_TYPE_RAID_TICKET",
+        "category": "ITEM_CATEGORY_RAID_TICKET",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_PINAP_BERRY": {
+        "itemId": "ITEM_PINAP_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 18,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CANDY_AWARD"
+            ],
+            "itemEffectPercent": [
+                2
+            ],
+            "growthPercent": 0.1,
+            "berryMultiplier": 1,
+            "remoteBerryMultiplier": 0.25,
+            "numBuddyAffectionPoints": 1,
+            "mapDurationMs": "3600000",
+            "timeFullDurationMs": "3600000",
+            "numBuddyHungerPoints": 2
+        }
+    },
+    "ITEM_POFFIN": {
+        "itemId": "ITEM_POFFIN",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_BUDDY_EXCLUSIVE_FOOD",
+        "food": {
+            "numBuddyAffectionPoints": 1,
+            "mapDurationMs": "21600000",
+            "timeFullDurationMs": "21600000",
+            "numBuddyHungerPoints": 6
+        }
+    },
+    "ITEM_POKEMON_STORAGE_UPGRADE": {
+        "itemId": "ITEM_POKEMON_STORAGE_UPGRADE",
+        "itemType": "ITEM_TYPE_INVENTORY_UPGRADE",
+        "category": "ITEM_CATEGORY_INVENTORY_UPGRADE",
+        "dropTrainerLevel": 100,
+        "inventoryUpgrade": {
+            "additionalStorage": 50,
+            "upgradeType": "INCREASE_POKEMON_STORAGE"
+        }
+    },
+    "ITEM_POKE_BALL": {
+        "itemId": "ITEM_POKE_BALL",
+        "itemType": "ITEM_TYPE_POKEBALL",
+        "category": "ITEM_CATEGORY_POKEBALL",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_POTION": {
+        "itemId": "ITEM_POTION",
+        "itemType": "ITEM_TYPE_POTION",
+        "category": "ITEM_CATEGORY_MEDICINE",
+        "dropTrainerLevel": 5,
+        "potion": {
+            "staAmount": 20
+        }
+    },
+    "ITEM_PREMIER_BALL": {
+        "itemId": "ITEM_PREMIER_BALL",
+        "itemType": "ITEM_TYPE_POKEBALL",
+        "category": "ITEM_CATEGORY_POKEBALL",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_RARE_CANDY": {
+        "itemId": "ITEM_RARE_CANDY",
+        "itemType": "ITEM_TYPE_CANDY",
+        "category": "ITEM_CATEGORY_CANDY",
+        "dropTrainerLevel": 5
+    },
+    "ITEM_RAZZ_BERRY": {
+        "itemId": "ITEM_RAZZ_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 8,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CAP_CHANCE_SINGLE_THROW"
+            ],
+            "itemEffectPercent": [
+                1.5
+            ],
+            "growthPercent": 0.1,
+            "berryMultiplier": 1,
+            "remoteBerryMultiplier": 0.25,
+            "numBuddyAffectionPoints": 1,
+            "mapDurationMs": "3600000",
+            "timeFullDurationMs": "3600000",
+            "numBuddyHungerPoints": 2
+        }
+    },
+    "ITEM_REMOTE_RAID_TICKET": {
+        "itemId": "ITEM_REMOTE_RAID_TICKET",
+        "itemType": "ITEM_TYPE_RAID_TICKET",
+        "category": "ITEM_CATEGORY_RAID_TICKET",
+        "dropTrainerLevel": 5
+    },
+    "ITEM_REVIVE": {
+        "itemId": "ITEM_REVIVE",
+        "itemType": "ITEM_TYPE_REVIVE",
+        "category": "ITEM_CATEGORY_MEDICINE",
+        "dropTrainerLevel": 5,
+        "revive": {
+            "staPercent": 0.5
+        }
+    },
+    "ITEM_SPECIAL_CAMERA": {
+        "itemId": "ITEM_SPECIAL_CAMERA",
+        "itemType": "ITEM_TYPE_CAMERA",
+        "category": "ITEM_CATEGORY_CAMERA",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_STAR_PIECE": {
+        "itemId": "ITEM_STAR_PIECE",
+        "itemType": "ITEM_TYPE_STARDUST_BOOST",
+        "category": "ITEM_CATEGORY_STARDUST_BOOST",
+        "dropTrainerLevel": 1,
+        "stardustBoost": {
+            "stardustMultiplier": 1.5,
+            "boostDurationMs": 1800000
+        }
+    },
+    "ITEM_STICKER_INVENTORY": {
+        "itemId": "ITEM_STICKER_INVENTORY",
+        "itemType": "ITEM_TYPE_STICKER_INVENTORY",
+        "category": "ITEM_CATEGORY_STICKER",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_SUN_STONE": {
+        "itemId": "ITEM_SUN_STONE",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_SUPER_POTION": {
+        "itemId": "ITEM_SUPER_POTION",
+        "itemType": "ITEM_TYPE_POTION",
+        "category": "ITEM_CATEGORY_MEDICINE",
+        "dropTrainerLevel": 10,
+        "potion": {
+            "staAmount": 50
+        }
+    },
+    "ITEM_TEAM_CHANGE": {
+        "itemId": "ITEM_TEAM_CHANGE",
+        "itemType": "ITEM_TYPE_TEAM_CHANGE",
+        "category": "ITEM_CATEGORY_TEAM_CHANGE",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_TROY_DISK": {
+        "itemId": "ITEM_TROY_DISK",
+        "itemType": "ITEM_TYPE_DISK",
+        "category": "ITEM_CATEGORY_DISK",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_TROY_DISK_GLACIAL": {
+        "itemId": "ITEM_TROY_DISK_GLACIAL",
+        "itemType": "ITEM_TYPE_DISK",
+        "category": "ITEM_CATEGORY_DISK",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_TROY_DISK_MAGNETIC": {
+        "itemId": "ITEM_TROY_DISK_MAGNETIC",
+        "itemType": "ITEM_TYPE_DISK",
+        "category": "ITEM_CATEGORY_DISK",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_TROY_DISK_MOSSY": {
+        "itemId": "ITEM_TROY_DISK_MOSSY",
+        "itemType": "ITEM_TYPE_DISK",
+        "category": "ITEM_CATEGORY_DISK",
+        "dropTrainerLevel": 1
+    },
+    "ITEM_ULTRA_BALL": {
+        "itemId": "ITEM_ULTRA_BALL",
+        "itemType": "ITEM_TYPE_POKEBALL",
+        "category": "ITEM_CATEGORY_POKEBALL",
+        "dropTrainerLevel": 20
+    },
+    "ITEM_UP_GRADE": {
+        "itemId": "ITEM_UP_GRADE",
+        "itemType": "ITEM_TYPE_EVOLUTION_REQUIREMENT",
+        "category": "ITEM_CATEGORY_EVOLUTION_REQUIREMENT",
+        "dropTrainerLevel": 10
+    },
+    "ITEM_WEPAR_BERRY": {
+        "itemId": "ITEM_WEPAR_BERRY",
+        "itemType": "ITEM_TYPE_FOOD",
+        "category": "ITEM_CATEGORY_FOOD",
+        "dropTrainerLevel": 100,
+        "food": {
+            "itemEffect": [
+                "ITEM_EFFECT_CAP_TARGET_MAX"
+            ],
+            "itemEffectPercent": [
+                1
+            ],
+            "growthPercent": 0.1
+        }
+    },
+    "ITEM_XL_RARE_CANDY": {
+        "itemId": "ITEM_XL_RARE_CANDY",
+        "itemType": "ITEM_TYPE_CANDY",
+        "category": "ITEM_CATEGORY_CANDY",
+        "dropTrainerLevel": 40
+    },
+    "ITEM_X_ATTACK": {
+        "itemId": "ITEM_X_ATTACK",
+        "itemType": "ITEM_TYPE_BATTLE",
+        "category": "ITEM_CATEGORY_BOOST",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_X_DEFENSE": {
+        "itemId": "ITEM_X_DEFENSE",
+        "itemType": "ITEM_TYPE_BATTLE",
+        "category": "ITEM_CATEGORY_BOOST",
+        "dropTrainerLevel": 100
+    },
+    "ITEM_X_MIRACLE": {
+        "itemId": "ITEM_X_MIRACLE",
+        "itemType": "ITEM_TYPE_BATTLE",
+        "category": "ITEM_CATEGORY_BOOST",
+        "dropTrainerLevel": 100
+    }
+}

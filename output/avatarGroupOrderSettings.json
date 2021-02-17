@@ -1,0 +1,16 @@
+{
+    "group": [
+        {
+            "name": "group_uniqlo",
+            "order": 3
+        },
+        {
+            "name": "group_halloween",
+            "order": 2
+        },
+        {
+            "name": "group_sponsor",
+            "order": 1
+        }
+    ]
+}

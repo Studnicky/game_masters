@@ -1,0 +1,1815 @@
+{
+    "VS_SEEKER_POKEMON_REWARDS_FREE": {
+        "availablePokemon": [
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "PIKACHU",
+                        "pokemonDisplay": {
+                            "form": "PIKACHU_VS_2019"
+                        }
+                    },
+                    "identifier": "seasonalLibre",
+                    "perCompetitiveCombatSeasonMaxCount": 1
+                },
+                "unlockedAtRank": 24,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "BULBASAUR",
+                        "pokemonDisplay": {
+                            "form": "BULBASAUR_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_bulb",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHIKORITA"
+                    },
+                    "identifier": "season6_chik",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 2,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TREECKO"
+                    },
+                    "identifier": "season6_treecko",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 3,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TURTWIG",
+                        "pokemonDisplay": {
+                            "form": "TURTWIG_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_turtwig",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 4,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHARMANDER",
+                        "pokemonDisplay": {
+                            "form": "CHARMANDER_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_char",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 6,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CYNDAQUIL"
+                    },
+                    "identifier": "season6_cynda",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 7,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TORCHIC"
+                    },
+                    "identifier": "season6_torch",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 8,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHIMCHAR"
+                    },
+                    "identifier": "season6_chim",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 9,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "SQUIRTLE",
+                        "pokemonDisplay": {
+                            "form": "SQUIRTLE_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_squirtle",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 11,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TOTODILE"
+                    },
+                    "identifier": "season6_toto",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 12,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "MUDKIP",
+                        "pokemonDisplay": {
+                            "form": "MUDKIP_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_mud",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 13,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "PIPLUP"
+                    },
+                    "identifier": "season6_pip",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 14,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHESPIN"
+                    },
+                    "identifier": "season6_ches",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 16,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "FENNEKIN"
+                    },
+                    "identifier": "season6_fenne",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 17,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "FROAKIE"
+                    },
+                    "identifier": "season6_froak",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 18,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SNOVER",
+                    "pokemonDisplay": {
+                        "form": "SNOVER_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SHELLDER",
+                    "pokemonDisplay": {
+                        "form": "SHELLDER_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SWINUB"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SNORUNT"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "VULPIX",
+                    "pokemonDisplay": {
+                        "form": "VULPIX_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "GROWLITHE",
+                    "pokemonDisplay": {
+                        "form": "GROWLITHE_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "PONYTA",
+                    "pokemonDisplay": {
+                        "form": "PONYTA_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SEEDOT",
+                    "pokemonDisplay": {
+                        "form": "SEEDOT_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "NINCADA"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "EEVEE"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "CHESPIN"
+                },
+                "unlockedAtRank": 16,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "FENNEKIN"
+                },
+                "unlockedAtRank": 17,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "FROAKIE"
+                },
+                "unlockedAtRank": 18,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "LATIOS"
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "FRILLISH",
+                    "pokemonDisplay": {
+                        "form": "FRILLISH_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "FRILLISH",
+                        "pokemonDisplay": {
+                            "form": "FRILLISH_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_frillish",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "LATIAS"
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_POKEMON_REWARDS_PREMIUM": {
+        "availablePokemon": [
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "PIKACHU",
+                        "pokemonDisplay": {
+                            "form": "PIKACHU_VS_2019"
+                        }
+                    },
+                    "identifier": "seasonalLibre",
+                    "perCompetitiveCombatSeasonMaxCount": 1
+                },
+                "unlockedAtRank": 24,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "BULBASAUR",
+                        "pokemonDisplay": {
+                            "form": "BULBASAUR_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_bulb",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHIKORITA"
+                    },
+                    "identifier": "season6_chik",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 2,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TREECKO"
+                    },
+                    "identifier": "season6_treecko",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 3,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TURTWIG",
+                        "pokemonDisplay": {
+                            "form": "TURTWIG_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_turtwig",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 4,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHARMANDER",
+                        "pokemonDisplay": {
+                            "form": "CHARMANDER_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_char",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 6,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CYNDAQUIL"
+                    },
+                    "identifier": "season6_cynda",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 7,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TORCHIC"
+                    },
+                    "identifier": "season6_torch",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 8,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHIMCHAR"
+                    },
+                    "identifier": "season6_chim",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 9,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "SQUIRTLE",
+                        "pokemonDisplay": {
+                            "form": "SQUIRTLE_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_squirtle",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 11,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "TOTODILE"
+                    },
+                    "identifier": "season6_toto",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 12,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "MUDKIP",
+                        "pokemonDisplay": {
+                            "form": "MUDKIP_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_mud",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 13,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "PIPLUP"
+                    },
+                    "identifier": "season6_pip",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 14,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "CHESPIN"
+                    },
+                    "identifier": "season6_ches",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 16,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "FENNEKIN"
+                    },
+                    "identifier": "season6_fenne",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 17,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "FROAKIE"
+                    },
+                    "identifier": "season6_froak",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 18,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SNOVER",
+                    "pokemonDisplay": {
+                        "form": "SNOVER_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SHELLDER",
+                    "pokemonDisplay": {
+                        "form": "SHELLDER_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SWINUB"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SNORUNT"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "VULPIX",
+                    "pokemonDisplay": {
+                        "form": "VULPIX_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "GROWLITHE",
+                    "pokemonDisplay": {
+                        "form": "GROWLITHE_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "PONYTA",
+                    "pokemonDisplay": {
+                        "form": "PONYTA_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "SEEDOT",
+                    "pokemonDisplay": {
+                        "form": "SEEDOT_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "NINCADA"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "EEVEE"
+                },
+                "unlockedAtRank": 1,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "CHESPIN"
+                },
+                "unlockedAtRank": 16,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "FENNEKIN"
+                },
+                "unlockedAtRank": 17,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "FROAKIE"
+                },
+                "unlockedAtRank": 18,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "LATIOS"
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "FRILLISH",
+                    "pokemonDisplay": {
+                        "form": "FRILLISH_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "guaranteedLimitedPokemonReward": {
+                    "pokemon": {
+                        "pokemonId": "FRILLISH",
+                        "pokemonDisplay": {
+                            "form": "FRILLISH_NORMAL"
+                        }
+                    },
+                    "identifier": "season6_frillish",
+                    "lifetimeMaxCount": 1
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "LATIAS"
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    }
+}

@@ -258,7 +258,7 @@ function pokemonSetting(key, pokemonSettings) {
 		: [];
 
 	mapped.moves = {
-		quick: [...eliteQuickMoves, ...defaultQuickMoves],
+		fast: [...eliteQuickMoves, ...defaultQuickMoves],
 		charged: [...mappedPurifiedMoves, ...mappedShadowMoves, ...eliteChargeMoves, ...defaultChargeMoves],
 		secondChargeCost: thirdMove
 	};

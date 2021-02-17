@@ -1,0 +1,7 @@
+{
+    "giftPersistenceTimeMs": 3000,
+    "mapPresentationTimeMs": 7000,
+    "enableSponsoredGeofenceGift": true,
+    "enablePoiGift": true,
+    "enableIncidentGift": true
+}

@@ -1,0 +1,110 @@
+{
+    "COMBAT_POKEMON_TYPE_BUG": {
+        "type": "POKEMON_TYPE_BUG",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_DARK": {
+        "type": "POKEMON_TYPE_DARK",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_DRAGON": {
+        "type": "POKEMON_TYPE_DRAGON",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_ELECTRIC": {
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_FAIRY": {
+        "type": "POKEMON_TYPE_FAIRY",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_FIGHTING": {
+        "type": "POKEMON_TYPE_FIGHTING",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_FIRE": {
+        "type": "POKEMON_TYPE_FIRE",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_FLYING": {
+        "type": "POKEMON_TYPE_FLYING",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_GHOST": {
+        "type": "POKEMON_TYPE_GHOST",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_GRASS": {
+        "type": "POKEMON_TYPE_GRASS",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_GROUND": {
+        "type": "POKEMON_TYPE_GROUND",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_ICE": {
+        "type": "POKEMON_TYPE_ICE",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_NORMAL": {
+        "type": "POKEMON_TYPE_NORMAL",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.6,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_POISON": {
+        "type": "POKEMON_TYPE_POISON",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_PSYCHIC": {
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_ROCK": {
+        "type": "POKEMON_TYPE_ROCK",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_STEEL": {
+        "type": "POKEMON_TYPE_STEEL",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    },
+    "COMBAT_POKEMON_TYPE_WATER": {
+        "type": "POKEMON_TYPE_WATER",
+        "niceLevelThreshold": 0.3,
+        "greatLevelThreshold": 0.7,
+        "excellentLevelThreshold": 0.95
+    }
+}

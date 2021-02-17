@@ -1,0 +1,49 @@
+{
+    "BUDDY_LEVEL_0": {
+        "level": "BUDDY_LEVEL_0"
+    },
+    "BUDDY_LEVEL_1": {
+        "level": "BUDDY_LEVEL_1",
+        "minNonCumulativePointsRequired": 1,
+        "unlockedTraits": [
+            "MAP_DEPLOY",
+            "EMOTION_INDICATOR"
+        ]
+    },
+    "BUDDY_LEVEL_2": {
+        "level": "BUDDY_LEVEL_2",
+        "minNonCumulativePointsRequired": 70,
+        "unlockedTraits": [
+            "MAP_DEPLOY",
+            "EMOTION_INDICATOR",
+            "ENCOUNTER_CAMEO",
+            "PICK_UP_CONSUMABLES"
+        ]
+    },
+    "BUDDY_LEVEL_3": {
+        "level": "BUDDY_LEVEL_3",
+        "minNonCumulativePointsRequired": 150,
+        "unlockedTraits": [
+            "MAP_DEPLOY",
+            "EMOTION_INDICATOR",
+            "ENCOUNTER_CAMEO",
+            "PICK_UP_CONSUMABLES",
+            "PICK_UP_SOUVENIRS",
+            "FIND_ATTRACTIVE_POIS"
+        ]
+    },
+    "BUDDY_LEVEL_4": {
+        "level": "BUDDY_LEVEL_4",
+        "minNonCumulativePointsRequired": 300,
+        "unlockedTraits": [
+            "MAP_DEPLOY",
+            "EMOTION_INDICATOR",
+            "ENCOUNTER_CAMEO",
+            "PICK_UP_CONSUMABLES",
+            "PICK_UP_SOUVENIRS",
+            "FIND_ATTRACTIVE_POIS",
+            "BEST_BUDDY_ASSET",
+            "CP_BOOST"
+        ]
+    }
+}

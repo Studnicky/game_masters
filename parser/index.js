@@ -4,18 +4,19 @@ const rawGameMaster = require('../latest/latest.json');
 const { arrayUnique } = require('../utils');
 const mappers = require('./mappers');
 
-async function writeContents(contents) {
-	const filePath = path.resolve('./output/parsedGameMaster.json');
-
-	try {
-		await fs.writeFile(filePath, JSON.stringify(contents, null, 4));
-	} catch (err) {
-		//	Don't terminate if the page fails to write
-		console.error(`Failed to write`, err);
-		if (debug) console.info(contents);
-		throw err;
+async function writeContents(mappedGameMaster) {
+	for (const [fileName, contents] of Object.entries(mappedGameMaster)) {
+		const filePath = path.resolve(`./output/${fileName}.json`);
+		try {
+			await fs.writeFile(filePath, JSON.stringify(contents, null, 4));
+		} catch (err) {
+			//	Don't terminate if the page fails to write
+			console.error(`Failed to write`, err);
+			console.info(filePath);
+			throw err;
+		}
 	}
-	return contents;
+	return mappedGameMaster;
 }
 
 function getAllDataKeys(rawGameMaster) {
@@ -64,6 +65,7 @@ function mapGameMasterData(sortedGameMaster) {
 			if (mappers[key]) {
 				mapped[key] = mappers[key](key, dataArray);
 			} else {
+				//	If there's no mapper, make it a key:val by templateId to data envelope
 				mapped[key] = dataArray.reduce((sorted, item) => {
 					const { templateId, data } = item;
 					sorted[templateId] = data[key];
@@ -84,11 +86,11 @@ async function parseGameMaster() {
 
 	const sortedGameMaster = sortByDataType(rawGameMaster, uniqueKeys);
 
-	const mappedData = mapGameMasterData(sortedGameMaster);
+	const mappedGameMaster = mapGameMasterData(sortedGameMaster);
 
-	await writeContents(mappedData);
+	await writeContents(mappedGameMaster);
 
-	return mappedData;
+	return mappedGameMaster;
 }
 
 const gameMaster = parseGameMaster(rawGameMaster);

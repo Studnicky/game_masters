@@ -1,0 +1,30 @@
+{
+    "BUDDY_CATEGORY_BATTLE": {
+        "activityCategory": "BUDDY_CATEGORY_BATTLE",
+        "maxPointsPerDay": 3
+    },
+    "BUDDY_CATEGORY_BONUS": {
+        "activityCategory": "BUDDY_CATEGORY_BONUS",
+        "maxPointsPerDay": 3
+    },
+    "BUDDY_CATEGORY_CARE": {
+        "activityCategory": "BUDDY_CATEGORY_CARE",
+        "maxPointsPerDay": 1
+    },
+    "BUDDY_CATEGORY_EXPLORE": {
+        "activityCategory": "BUDDY_CATEGORY_EXPLORE",
+        "maxPointsPerDay": 1
+    },
+    "BUDDY_CATEGORY_FEED": {
+        "activityCategory": "BUDDY_CATEGORY_FEED",
+        "maxPointsPerDay": 3
+    },
+    "BUDDY_CATEGORY_SNAPSHOT": {
+        "activityCategory": "BUDDY_CATEGORY_SNAPSHOT",
+        "maxPointsPerDay": 1
+    },
+    "BUDDY_CATEGORY_WALK": {
+        "activityCategory": "BUDDY_CATEGORY_WALK",
+        "maxPointsPerDay": 3
+    }
+}

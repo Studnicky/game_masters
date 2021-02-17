@@ -1,0 +1,337 @@
+{
+    "STICKER_FUNAWARI_22_312.3": {
+        "sku": "STICKER_FUNAWARI_22_312.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 6
+    },
+    "STICKER_FUNAWARI_22_312.5": {
+        "sku": "STICKER_FUNAWARI_22_312.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 6
+    },
+    "STICKER_FUNWARI_02_0608.3": {
+        "sku": "STICKER_FUNWARI_02_0608.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_FUNWARI_02_0608.5": {
+        "sku": "STICKER_FUNWARI_02_0608.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_GIFTTHANKYOU.3": {
+        "sku": "STICKER_GIFTTHANKYOU.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 2
+    },
+    "STICKER_GIFTTHANKYOU.5": {
+        "sku": "STICKER_GIFTTHANKYOU.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 2
+    },
+    "STICKER_HALLOWEEN_BULB.3": {
+        "sku": "STICKER_HALLOWEEN_BULB.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_BULB.5": {
+        "sku": "STICKER_HALLOWEEN_BULB.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_CHARM.3": {
+        "sku": "STICKER_HALLOWEEN_CHARM.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_CHARM.5": {
+        "sku": "STICKER_HALLOWEEN_CHARM.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_GENGARMD.3": {
+        "sku": "STICKER_HALLOWEEN_GENGARMD.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_GENGARMD.5": {
+        "sku": "STICKER_HALLOWEEN_GENGARMD.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_PIKA.3": {
+        "sku": "STICKER_HALLOWEEN_PIKA.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_PIKA.5": {
+        "sku": "STICKER_HALLOWEEN_PIKA.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_SQU.3": {
+        "sku": "STICKER_HALLOWEEN_SQU.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_HALLOWEEN_SQU.5": {
+        "sku": "STICKER_HALLOWEEN_SQU.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_NAGANO_06_312.3": {
+        "sku": "STICKER_NAGANO_06_312.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 4
+    },
+    "STICKER_NAGANO_06_312.5": {
+        "sku": "STICKER_NAGANO_06_312.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 4
+    },
+    "STICKER_NAGANO_11.3": {
+        "sku": "STICKER_NAGANO_11.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_NAGANO_11.5": {
+        "sku": "STICKER_NAGANO_11.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_NAGANO_15_312.3": {
+        "sku": "STICKER_NAGANO_15_312.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 5
+    },
+    "STICKER_NAGANO_15_312.5": {
+        "sku": "STICKER_NAGANO_15_312.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 5
+    },
+    "STICKER_NAGANO_BATH.3": {
+        "sku": "STICKER_NAGANO_BATH.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_NAGANO_BATH.5": {
+        "sku": "STICKER_NAGANO_BATH.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_NAGANO_MARILL.3": {
+        "sku": "STICKER_NAGANO_MARILL.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 2
+    },
+    "STICKER_NAGANO_MARILL.5": {
+        "sku": "STICKER_NAGANO_MARILL.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 2
+    },
+    "STICKER_NAGANO_YADON.3": {
+        "sku": "STICKER_NAGANO_YADON.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 3
+    },
+    "STICKER_NAGANO_YADON.5": {
+        "sku": "STICKER_NAGANO_YADON.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 3
+    },
+    "STICKER_NEWPOKEMON2_15.3": {
+        "sku": "STICKER_NEWPOKEMON2_15.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_NEWPOKEMON2_15.5": {
+        "sku": "STICKER_NEWPOKEMON2_15.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_POKEMONCHATPALS2_40.3": {
+        "sku": "STICKER_POKEMONCHATPALS2_40.3",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "STICKER_POKEMONCHATPALS2_40.5": {
+        "sku": "STICKER_POKEMONCHATPALS2_40.5",
+        "category": "IAP_CATEGORY_STICKER",
+        "sortOrder": 1
+    },
+    "bundle.general1.free.1": {
+        "sku": "bundle.general1.free.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 4
+    },
+    "bundle.general1.large.1": {
+        "sku": "bundle.general1.large.1",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 4,
+        "sale": true
+    },
+    "bundle.general1.medium.1": {
+        "sku": "bundle.general1.medium.1",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 21,
+        "hidden": true,
+        "spriteId": "bundle.general1.medium.1",
+        "title": "bundle.general5.small.1_title"
+    },
+    "bundle.general1.rocket.1": {
+        "sku": "bundle.general1.rocket.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 12,
+        "spriteId": "bundle.general1.rocket.1",
+        "title": "beluga_daily_bonus"
+    },
+    "bundle.general1.tiny.2": {
+        "sku": "bundle.general1.tiny.2",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 10,
+        "spriteId": "bundle.general1.tiny.1",
+        "title": "bundle.general1.tiny.3_title"
+    },
+    "bundle.general1.tiny.3": {
+        "sku": "bundle.general1.tiny.3",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 10,
+        "hidden": true,
+        "spriteId": "bundle.general1.tiny.1",
+        "title": "bundle.general1.tiny.2_title"
+    },
+    "bundle.general1.tiny.4": {
+        "sku": "bundle.general1.tiny.4",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 10,
+        "hidden": true,
+        "spriteId": "bundle.general1.tiny.1",
+        "title": "bundle.general1.tiny.4_title"
+    },
+    "bundle.general2.free.1": {
+        "sku": "bundle.general2.free.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 10,
+        "hidden": true
+    },
+    "bundle.general2.medium.1": {
+        "sku": "bundle.general2.medium.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 11,
+        "spriteId": "bundle.general2.medium.1",
+        "title": "item_ultra_ball_name"
+    },
+    "bundle.general2.small.1": {
+        "sku": "bundle.general2.small.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 10,
+        "spriteId": "bundle.general2.small.1",
+        "title": "remoteraidticket.3_title"
+    },
+    "bundle.general3.free.1": {
+        "sku": "bundle.general3.free.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 3,
+        "spriteId": "bundle.general1.free.1"
+    },
+    "bundle.general3.large.1": {
+        "sku": "bundle.general3.large.1",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 1,
+        "spriteId": "bundle.general2.small.1",
+        "title": "bundle.xmas.small.1_title"
+    },
+    "bundle.general3.small.1": {
+        "sku": "bundle.general3.small.1",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 20,
+        "hidden": true,
+        "spriteId": "bundle.general3.small.1",
+        "title": "item_remote_raid_ticket_name"
+    },
+    "bundle.general4.small.2": {
+        "sku": "bundle.general4.small.2",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 10,
+        "spriteId": "bundle.general4.small.1",
+        "title": "bundle.general4.small.1_title"
+    },
+    "bundle.general5.small.1": {
+        "sku": "bundle.general5.small.1",
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 20,
+        "spriteId": "bundle.general5.small.1",
+        "title": "beluga_daily_bonus"
+    },
+    "bundle.general5.small.2": {
+        "sku": "bundle.general5.small.2",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 50,
+        "hidden": true,
+        "spriteId": "bundle.general1.medium.1",
+        "title": "bundle.general5.small.1_title"
+    },
+    "bundle.general5.small.3": {
+        "sku": "bundle.general5.small.3",
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 50,
+        "hidden": true,
+        "spriteId": "bundle.general1.medium.1",
+        "title": "bundle.general5.small.1_title"
+    },
+    "general1.ticket.1": {
+        "sku": "general1.ticket.1",
+        "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+        "hidden": true,
+        "skuEnableTime": "2019-03-09T10:00:00",
+        "skuDisableTime": "2019-03-21T17:00:00",
+        "skuEnableTimeUtcMs": "1552125600000",
+        "skuDisableTimeUtcMs": "1553187600000"
+    },
+    "general1.ticket.2": {
+        "sku": "general1.ticket.2",
+        "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+        "hidden": true,
+        "title": "general1.ticket.2_RoseT_title",
+        "description": "general1.ticket.2_RoseT_description",
+        "skuEnableTime": "2019-03-14T08:00:00",
+        "skuDisableTime": "2019-03-15T17:00:00",
+        "skuEnableTimeUtcMs": "1552550400000",
+        "skuDisableTimeUtcMs": "1552669200000",
+        "imageUrl": "https://storage.googleapis.com/prod-public-images/1024x512.jpg"
+    },
+    "general1.ticket.3": {
+        "sku": "general1.ticket.3",
+        "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+        "hidden": true,
+        "spriteId": "general1.ticket.1",
+        "skuEnableTime": "2020-06-02T08:00:00",
+        "skuDisableTime": "2020-07-26T18:00:00",
+        "skuEnableTimeUtcMs": "1591084800000",
+        "skuDisableTimeUtcMs": "1595786400000",
+        "imageUrl": "https://storage.googleapis.com/prod-public-images/gf20.jpg"
+    },
+    "general1.ticket.4": {
+        "sku": "general1.ticket.4",
+        "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+        "spriteId": "general1.ticket.1",
+        "title": "general1.ticket.4_title",
+        "description": "general1.ticket.4_description",
+        "skuEnableTime": "2020-12-08T08:00:00",
+        "skuDisableTime": "2021-02-20T21:00:00",
+        "skuEnableTimeUtcMs": "1607414400000",
+        "skuDisableTimeUtcMs": "1613854800000",
+        "imageUrl": "https://storage.googleapis.com/events-server-release-user-assets/PGORELEASE-bc2717b6d0211ff9.jpeg"
+    },
+    "hometransport.1": {
+        "sku": "hometransport.1",
+        "category": "IAP_CATEGORY_TRANSPORTER_ENERGY"
+    },
+    "itemleadermap": {
+        "sku": "itemleadermap",
+        "category": "IAP_CATEGORY_ITEMS",
+        "sortOrder": 60,
+        "spriteId": "leadermap.1",
+        "title": "itemleadermap_title"
+    }
+}

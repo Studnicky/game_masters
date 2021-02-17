@@ -1,0 +1,155 @@
+{
+    "COMBAT_RANKING_SETTINGS": {
+        "rankLevel": [
+            {
+                "rankLevel": 1
+            },
+            {
+                "rankLevel": 2,
+                "additionalTotalBattlesRequired": 5
+            },
+            {
+                "rankLevel": 3,
+                "additionalWinsRequired": 1
+            },
+            {
+                "rankLevel": 4,
+                "additionalWinsRequired": 2
+            },
+            {
+                "rankLevel": 5,
+                "additionalWinsRequired": 3
+            },
+            {
+                "rankLevel": 6,
+                "additionalWinsRequired": 4
+            },
+            {
+                "rankLevel": 7,
+                "additionalWinsRequired": 5
+            },
+            {
+                "rankLevel": 8,
+                "additionalWinsRequired": 10
+            },
+            {
+                "rankLevel": 9,
+                "additionalWinsRequired": 10
+            },
+            {
+                "rankLevel": 10,
+                "additionalWinsRequired": 15
+            }
+        ],
+        "requiredForRewards": {
+            "rankLevel": 1,
+            "additionalTotalBattlesRequired": 5
+        },
+        "minRankToDisplayRating": 11
+    },
+    "COMBAT_RANKING_SETTINGS_S8": {
+        "rankLevel": [
+            {
+                "rankLevel": 1
+            },
+            {
+                "rankLevel": 2,
+                "additionalTotalBattlesRequired": 5
+            },
+            {
+                "rankLevel": 3,
+                "additionalWinsRequired": 3
+            },
+            {
+                "rankLevel": 4,
+                "additionalWinsRequired": 4
+            },
+            {
+                "rankLevel": 5,
+                "additionalWinsRequired": 5
+            },
+            {
+                "rankLevel": 6,
+                "additionalTotalBattlesRequired": 5
+            },
+            {
+                "rankLevel": 7,
+                "additionalWinsRequired": 7
+            },
+            {
+                "rankLevel": 8,
+                "additionalWinsRequired": 8
+            },
+            {
+                "rankLevel": 9,
+                "additionalWinsRequired": 9
+            },
+            {
+                "rankLevel": 10,
+                "additionalWinsRequired": 10
+            },
+            {
+                "rankLevel": 11,
+                "additionalTotalBattlesRequired": 5
+            },
+            {
+                "rankLevel": 12,
+                "additionalWinsRequired": 12
+            },
+            {
+                "rankLevel": 13,
+                "additionalWinsRequired": 13
+            },
+            {
+                "rankLevel": 14,
+                "additionalWinsRequired": 14
+            },
+            {
+                "rankLevel": 15,
+                "additionalWinsRequired": 15
+            },
+            {
+                "rankLevel": 16,
+                "additionalTotalBattlesRequired": 5
+            },
+            {
+                "rankLevel": 17,
+                "additionalWinsRequired": 17
+            },
+            {
+                "rankLevel": 18,
+                "additionalWinsRequired": 18
+            },
+            {
+                "rankLevel": 19,
+                "additionalWinsRequired": 19
+            },
+            {
+                "rankLevel": 20,
+                "additionalTotalBattlesRequired": 5
+            },
+            {
+                "rankLevel": 21,
+                "minRatingRequired": 2000
+            },
+            {
+                "rankLevel": 22,
+                "minRatingRequired": 2500
+            },
+            {
+                "rankLevel": 23,
+                "minRatingRequired": 2750
+            },
+            {
+                "rankLevel": 24,
+                "minRatingRequired": 3000
+            }
+        ],
+        "requiredForRewards": {
+            "rankLevel": 1,
+            "additionalTotalBattlesRequired": 5
+        },
+        "minRankToDisplayRating": 20,
+        "minRatingRequired": 8
+    }
+}
