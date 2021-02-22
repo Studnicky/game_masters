@@ -1,6 +1,21 @@
 const { arrayExclude } = require('../../utils');
 const pokedexPattern = /V(\d+)_/;
 
+const FORM_NAME_MAP = {
+	MEWTWO_A: 'MEWTWO_ARMORED',
+	CHARIZARD_COPY_2019: 'CHARIZARD_CLONE',
+	BLASTOISE_COPY_2019: 'BLASTOISE_CLONE',
+	VENUSAUR_COPY_2019: 'VENUSAUR_CLONE',
+	PIKACHU_COPY_2019: 'PIKACHU_CLONE',
+	PIKACHU_FALL_2019: 'PIKACHU_HALLOWEEN',
+	PIKACHU_ADVENTURE_HAT_2020: 'PIKACHU_ADVENTURE',
+	PIKACHU_COSTUME_2020: 'PIKACHU_PINBALL',
+	PIKACHU_VS_2019: 'PIKACHU_LIBRE',
+	PIKACHU_WINTER_2020: 'PIKACHU_WINTER',
+	BULBASAUR_FALL_2019: 'BULBASAUR_HALLOWEEN',
+	CHARMANDER_FALL_2019: 'CHARMANDER_HALLOWEEN'
+};
+
 const RARITY_MAP = {
 	POKEMON_RARITY_LEGENDARY: 'LEGENDARY',
 	POKEMON_RARITY_MYTHIC: 'MYTHIC',
@@ -81,10 +96,21 @@ function mapMove(move, status) {
 	return { status, name: move };
 }
 
-function getPokedexNumber(templateId) {
+function getnumber(templateId) {
 	const match = templateId.match(pokedexPattern);
 
 	return parseInt(match[1], 10);
+}
+
+function getFormName(pokemonId, form) {
+	//	If there is no form, it is 'DEFAULT'
+	let formName = form ? form : 'DEFAULT';
+	//	Map directly by form map
+	formName = FORM_NAME_MAP[formName] ? FORM_NAME_MAP[formName] : formName;
+	//	Remove the pokemon name from the form name
+	formName = formName.replace(`${pokemonId}_`, '');
+
+	return formName;
 }
 
 function pokemonSetting(key, pokemonSettings) {
@@ -143,17 +169,20 @@ function pokemonSetting(key, pokemonSettings) {
 	} = raw;
 
 	const mapped = {};
-	const pokedexNumber = getPokedexNumber(templateId);
 
-	mapped.pokedexNumber = pokedexNumber;
+	mapped.number = getnumber(templateId);
+	mapped.form = getFormName(pokemonId, form);
+
 	mapped.name = pokemonId;
 	//	Form is the most unique identifier; we will index on this.
 	//	There seem to be two versions of all pokemon - one has no form, one has `XXX_DEFAULT`
 	//	If we map the form to the pokedex number, we can create a map later off this for lookups
-	mapped.form = form ? form : pokedexNumber;
 	mapped.rarity = RARITY_MAP[rarity];
 	mapped.animationTime = animationTime;
 	mapped.encounter = encounter;
+
+	mapped.isShadow = mapped.form.includes('SHADOW');
+	mapped.isPurified = mapped.form.includes('PURIFIED');
 
 	mapped.camera = {
 		default: camera,
@@ -174,10 +203,12 @@ function pokemonSetting(key, pokemonSettings) {
 		canBeShadow: raw.hasOwnProperty('shadow')
 	};
 
-	mapped.shadow = {
-		purifyCostCandy: purificationCandyNeeded,
-		purifyCostStardust: purificationStardustNeeded
-	};
+	mapped.shadow = mapped.isShadow
+		? {
+				purifyCostCandy: purificationCandyNeeded,
+				purifyCostStardust: purificationStardustNeeded
+		  }
+		: null;
 
 	mapped.size = {
 		size: buddySize,
@@ -250,16 +281,18 @@ function pokemonSetting(key, pokemonSettings) {
 		return mapMove(move, 'DEFAULT');
 	});
 
-	const mappedPurifiedMoves = purifiedChargeMove
-		? [purifiedChargeMove].map((move) => {
-				return mapMove(move, 'PURIFIED');
-		  })
-		: [];
-	const mappedShadowMoves = shadowChargeMove
-		? [shadowChargeMove].map((move) => {
-				return mapMove(move, 'SHADOW');
-		  })
-		: [];
+	const mappedPurifiedMoves =
+		mapped.isPurified && purifiedChargeMove
+			? [purifiedChargeMove].map((move) => {
+					return mapMove(move, 'PURIFIED');
+			  })
+			: [];
+	const mappedShadowMoves =
+		mapped.isShadow && shadowChargeMove
+			? [shadowChargeMove].map((move) => {
+					return mapMove(move, 'SHADOW');
+			  })
+			: [];
 
 	mapped.moves = {
 		fast: [...eliteQuickMoves, ...defaultQuickMoves],
@@ -279,20 +312,20 @@ function pokemonSetting(key, pokemonSettings) {
 }
 
 function pokemonSettings(key, dataArray) {
-	const mappedItems = dataArray.map((item) => {
+	const mappedEntries = dataArray.map((item) => {
 		return pokemonSetting(key, item);
 	});
 
-	const keyedItems = mappedItems.reduce((keyed, mapped) => {
-		const { name, form } = mapped;
-		// grouped[name] = grouped.hasOwnProperty(name) ? grouped[name] : {};
-		// grouped[name] = { ...grouped[name], ...{ [form]: mapped } };
-		keyed[form] = mapped;
+	const groupedEntries = mappedEntries.reduce((grouped, mapped) => {
+		const { form, name } = mapped;
 
-		return keyed;
+		grouped[name] = grouped.hasOwnProperty(name) ? grouped[name] : {};
+		grouped[name] = { ...grouped[name], ...{ [form]: mapped } };
+
+		return grouped;
 	}, {});
 
-	return keyedItems;
+	return groupedEntries;
 }
 
 module.exports = pokemonSettings;

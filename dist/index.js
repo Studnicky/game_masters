@@ -84,6 +84,7 @@ const adventureSyncV2Gmt = require('./adventureSyncV2Gmt');
 const camera = require('./camera');
 const deepLinkingSettings = require('./deepLinkingSettings');
 const moveSequenceSettings = require('./moveSequenceSettings');
+const pokemonNumberSettings = require('./pokemonNumberSettings');
 
 module.exports = {
 	arTelemetrySettings,
@@ -171,5 +172,6 @@ module.exports = {
 	adventureSyncV2Gmt,
 	camera,
 	deepLinkingSettings,
-	moveSequenceSettings
+	moveSequenceSettings,
+	pokemonNumberSettings
 }

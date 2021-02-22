@@ -88,6 +88,19 @@ function mapGameMasterData(sortedGameMaster) {
 	return mappedGameMaster;
 }
 
+function mapNamesToNumbers(pokemonSettings) {
+	const numberAssociations = Object.entries(pokemonSettings).reduce((associations, [name, forms]) => {
+		//    All pokemon of the same name grouping will have the same name and number
+		const { number } = Object.values(forms)[0];
+
+		associations[number] = associations.hasOwnProperty(number) ? associations[number] : name;
+
+		return associations;
+	}, {});
+
+	return numberAssociations;
+}
+
 function createIndex(mappedGameMaster) {
 	const allKeysOfMappedGameMaster = Object.keys(mappedGameMaster);
 
@@ -111,6 +124,9 @@ async function parseGameMaster() {
 	const sortedGameMaster = sortByDataType(rawGameMaster, uniqueKeys);
 
 	const mappedGameMaster = mapGameMasterData(sortedGameMaster);
+
+	//	Inject the number to name mapper
+	mappedGameMaster.pokemonNumberSettings = mapNamesToNumbers(mappedGameMaster.pokemonSettings);
 
 	const gameMasterIndex = createIndex(mappedGameMaster);
 
