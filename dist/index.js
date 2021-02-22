@@ -39,6 +39,7 @@ const gymBadgeSettings = require('./gymBadgeSettings');
 const gymLevel = require('./gymLevel');
 const iapCategoryDisplay = require('./iapCategoryDisplay');
 const iapSettings = require('./iapSettings');
+const incidentPrioritySettings = require('./incidentPrioritySettings');
 const pokestopInvasionAvailabilitySettings = require('./pokestopInvasionAvailabilitySettings');
 const inventorySettings = require('./inventorySettings');
 const itemSettings = require('./itemSettings');
@@ -126,6 +127,7 @@ module.exports = {
 	gymLevel,
 	iapCategoryDisplay,
 	iapSettings,
+	incidentPrioritySettings,
 	pokestopInvasionAvailabilitySettings,
 	inventorySettings,
 	itemSettings,

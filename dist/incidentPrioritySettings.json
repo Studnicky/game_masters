@@ -1,0 +1,8 @@
+{
+    "incidentPriority": [
+        {
+            "priority": 1,
+            "displayType": "INVASION_EVENT_NPC"
+        }
+    ]
+}

@@ -171,7 +171,8 @@
         "category": "ITEM_CATEGORY_INCENSE",
         "dropTrainerLevel": 1,
         "incense": {
-            "incenseLifetimeSeconds": 3600
+            "incenseLifetimeSeconds": 3600,
+            "spawnTableProbability": 0.9
         }
     },
     "ITEM_INCUBATOR_BASIC": {

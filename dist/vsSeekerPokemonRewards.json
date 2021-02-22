@@ -799,7 +799,10 @@
             },
             {
                 "pokemon": {
-                    "pokemonId": "LATIOS"
+                    "pokemonId": "ARTICUNO",
+                    "pokemonDisplay": {
+                        "form": "ARTICUNO_NORMAL"
+                    }
                 },
                 "unlockedAtRank": 20,
                 "attackIvOverride": {
@@ -881,7 +884,64 @@
             },
             {
                 "pokemon": {
-                    "pokemonId": "LATIAS"
+                    "pokemonId": "ZAPDOS",
+                    "pokemonDisplay": {
+                        "form": "ZAPDOS_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "MOLTRES",
+                    "pokemonDisplay": {
+                        "form": "MOLTRES_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "MEWTWO",
+                    "pokemonDisplay": {
+                        "form": "MEWTWO_NORMAL"
+                    }
                 },
                 "unlockedAtRank": 20,
                 "attackIvOverride": {
@@ -1705,7 +1765,10 @@
             },
             {
                 "pokemon": {
-                    "pokemonId": "LATIOS"
+                    "pokemonId": "ARTICUNO",
+                    "pokemonDisplay": {
+                        "form": "ARTICUNO_NORMAL"
+                    }
                 },
                 "unlockedAtRank": 20,
                 "attackIvOverride": {
@@ -1787,7 +1850,64 @@
             },
             {
                 "pokemon": {
-                    "pokemonId": "LATIAS"
+                    "pokemonId": "ZAPDOS",
+                    "pokemonDisplay": {
+                        "form": "ZAPDOS_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "MOLTRES",
+                    "pokemonDisplay": {
+                        "form": "MOLTRES_NORMAL"
+                    }
+                },
+                "unlockedAtRank": 20,
+                "attackIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "defenseIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "staminaIvOverride": {
+                    "range": {
+                        "min": 10,
+                        "max": 15
+                    }
+                }
+            },
+            {
+                "pokemon": {
+                    "pokemonId": "MEWTWO",
+                    "pokemonDisplay": {
+                        "form": "MEWTWO_NORMAL"
+                    }
                 },
                 "unlockedAtRank": 20,
                 "attackIvOverride": {

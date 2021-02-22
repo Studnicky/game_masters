@@ -172,7 +172,7 @@
     },
     "bundle.general1.medium.1": {
         "sku": "bundle.general1.medium.1",
-        "category": "IAP_CATEGORY_BUNDLE",
+        "category": "IAP_CATEGORY_FREE",
         "sortOrder": 21,
         "hidden": true,
         "spriteId": "bundle.general1.medium.1",
