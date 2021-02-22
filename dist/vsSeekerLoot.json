@@ -1,0 +1,2510 @@
+{
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_10_FREE": {
+        "rankLevel": 10,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 750
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 750
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 750
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 750
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 750
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_10_PREMIUM": {
+        "rankLevel": 10,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1500
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1500
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1500
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1500
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1500
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_11_FREE": {
+        "rankLevel": 11,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 530
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1060
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_11_PREMIUM": {
+        "rankLevel": 11,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1600
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_12_FREE": {
+        "rankLevel": 12,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 530
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1060
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_12_PREMIUM": {
+        "rankLevel": 12,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1600
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_13_FREE": {
+        "rankLevel": 13,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 570
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1140
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_13_PREMIUM": {
+        "rankLevel": 13,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1700
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_14_FREE": {
+        "rankLevel": 14,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 600
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_14_PREMIUM": {
+        "rankLevel": 14,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_15_FREE": {
+        "rankLevel": 15,
+        "reward": [
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 1
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 1
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 1
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 1
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 1
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_15_PREMIUM": {
+        "rankLevel": 15,
+        "reward": [
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 2
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 2
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 2
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 2
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 2
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_16_FREE": {
+        "rankLevel": 16,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 700
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_16_PREMIUM": {
+        "rankLevel": 16,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2100
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_17_FREE": {
+        "rankLevel": 17,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 730
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1460
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_17_PREMIUM": {
+        "rankLevel": 17,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2200
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_18_FREE": {
+        "rankLevel": 18,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 770
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1540
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_18_PREMIUM": {
+        "rankLevel": 18,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2300
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_19_FREE": {
+        "rankLevel": 19,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_19_PREMIUM": {
+        "rankLevel": 19,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_1_FREE": {
+        "rankLevel": 1,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 300
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1000
+                }
+            },
+            {
+                "item": {
+                    "count": 1000
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_1_PREMIUM": {
+        "rankLevel": 1,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 900
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3000
+                }
+            },
+            {
+                "item": {
+                    "count": 3000
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_20_FREE": {
+        "rankLevel": 20,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 870
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1740
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_20_PREMIUM": {
+        "rankLevel": 20,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2600
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_21_FREE": {
+        "rankLevel": 21,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 900
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_21_PREMIUM": {
+        "rankLevel": 21,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2700
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_22_FREE": {
+        "rankLevel": 22,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 900
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_22_PREMIUM": {
+        "rankLevel": 22,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2700
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_23_FREE": {
+        "rankLevel": 23,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 900
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_23_PREMIUM": {
+        "rankLevel": 23,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2700
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_24_FREE": {
+        "rankLevel": 24,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 900
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2800
+                }
+            },
+            {
+                "item": {
+                    "count": 2800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_24_PREMIUM": {
+        "rankLevel": 24,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2700
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4800
+                }
+            },
+            {
+                "item": {
+                    "count": 4800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_2_FREE": {
+        "rankLevel": 2,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 330
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 660
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1200
+                }
+            },
+            {
+                "item": {
+                    "count": 1200
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_2_PREMIUM": {
+        "rankLevel": 2,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1000
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3200
+                }
+            },
+            {
+                "item": {
+                    "count": 3200
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_3_FREE": {
+        "rankLevel": 3,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 330
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 660
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1400
+                }
+            },
+            {
+                "item": {
+                    "count": 1400
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_3_PREMIUM": {
+        "rankLevel": 3,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1000
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3400
+                }
+            },
+            {
+                "item": {
+                    "count": 3400
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_4_FREE": {
+        "rankLevel": 4,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 370
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 740
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1600
+                }
+            },
+            {
+                "item": {
+                    "count": 1600
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_4_PREMIUM": {
+        "rankLevel": 4,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1100
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3600
+                }
+            },
+            {
+                "item": {
+                    "count": 3600
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_5_FREE": {
+        "rankLevel": 5,
+        "reward": [
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1800
+                }
+            },
+            {
+                "item": {
+                    "count": 1800
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_5_PREMIUM": {
+        "rankLevel": 5,
+        "reward": [
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 3800
+                }
+            },
+            {
+                "item": {
+                    "count": 3800
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_6_FREE": {
+        "rankLevel": 6,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 400
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 800
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2000
+                }
+            },
+            {
+                "item": {
+                    "count": 2000
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_6_PREMIUM": {
+        "rankLevel": 6,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1200
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4000
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4000
+                }
+            },
+            {
+                "item": {
+                    "count": 4000
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_7_FREE": {
+        "rankLevel": 7,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 430
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 860
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2200
+                }
+            },
+            {
+                "item": {
+                    "count": 2200
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_7_PREMIUM": {
+        "rankLevel": 7,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1300
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4200
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4200
+                }
+            },
+            {
+                "item": {
+                    "count": 4200
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_8_FREE": {
+        "rankLevel": 8,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 430
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 860
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2400
+                }
+            },
+            {
+                "item": {
+                    "count": 2400
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_8_PREMIUM": {
+        "rankLevel": 8,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1300
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4400
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4400
+                }
+            },
+            {
+                "item": {
+                    "count": 4400
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_9_FREE": {
+        "rankLevel": 9,
+        "reward": [
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 470
+                }
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "pokemonReward": true
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 3
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 940
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 2600
+                }
+            },
+            {
+                "item": {
+                    "count": 2600
+                }
+            }
+        ]
+    },
+    "VS_SEEKER_LOOT_PER_WIN_SETTINGS_RANK_9_PREMIUM": {
+        "rankLevel": 9,
+        "reward": [
+            {
+                "pokemonReward": true
+            },
+            {
+                "itemLootTable": true
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 1400
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_RARE_CANDY",
+                    "count": 6
+                }
+            },
+            {
+                "item": {
+                    "item": "ITEM_MOVE_REROLL_SPECIAL_ATTACK",
+                    "count": 5
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4600
+                }
+            },
+            {
+                "item": {
+                    "stardust": true,
+                    "count": 4600
+                }
+            },
+            {
+                "item": {
+                    "count": 4600
+                }
+            }
+        ],
+        "rewardTrack": "PREMIUM"
+    }
+}

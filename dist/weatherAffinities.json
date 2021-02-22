@@ -1,0 +1,55 @@
+{
+    "WEATHER_AFFINITY_CLEAR": {
+        "weatherCondition": "CLEAR",
+        "pokemonType": [
+            "POKEMON_TYPE_GRASS",
+            "POKEMON_TYPE_GROUND",
+            "POKEMON_TYPE_FIRE"
+        ]
+    },
+    "WEATHER_AFFINITY_FOG": {
+        "weatherCondition": "FOG",
+        "pokemonType": [
+            "POKEMON_TYPE_DARK",
+            "POKEMON_TYPE_GHOST"
+        ]
+    },
+    "WEATHER_AFFINITY_OVERCAST": {
+        "weatherCondition": "OVERCAST",
+        "pokemonType": [
+            "POKEMON_TYPE_FAIRY",
+            "POKEMON_TYPE_FIGHTING",
+            "POKEMON_TYPE_POISON"
+        ]
+    },
+    "WEATHER_AFFINITY_PARTLY_CLOUDY": {
+        "weatherCondition": "PARTLY_CLOUDY",
+        "pokemonType": [
+            "POKEMON_TYPE_NORMAL",
+            "POKEMON_TYPE_ROCK"
+        ]
+    },
+    "WEATHER_AFFINITY_RAINY": {
+        "weatherCondition": "RAINY",
+        "pokemonType": [
+            "POKEMON_TYPE_WATER",
+            "POKEMON_TYPE_ELECTRIC",
+            "POKEMON_TYPE_BUG"
+        ]
+    },
+    "WEATHER_AFFINITY_SNOW": {
+        "weatherCondition": "SNOW",
+        "pokemonType": [
+            "POKEMON_TYPE_ICE",
+            "POKEMON_TYPE_STEEL"
+        ]
+    },
+    "WEATHER_AFFINITY_WINDY": {
+        "weatherCondition": "WINDY",
+        "pokemonType": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_FLYING",
+            "POKEMON_TYPE_PSYCHIC"
+        ]
+    }
+}

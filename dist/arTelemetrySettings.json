@@ -1,0 +1,7 @@
+{
+    "measureBattery": true,
+    "batterySamplingIntervalMs": 10000,
+    "measureFramerate": true,
+    "framerateSamplingIntervalMs": 10000,
+    "percentageSessionsToSample": 0.5
+}

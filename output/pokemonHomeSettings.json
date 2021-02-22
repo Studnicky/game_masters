@@ -1,6 +1,0 @@
-{
-    "playerMinLevel": 1,
-    "transporterMaxEnergy": 10000,
-    "energySkuId": "hometransport.1",
-    "transporterEnergyGainPerHour": 60
-}

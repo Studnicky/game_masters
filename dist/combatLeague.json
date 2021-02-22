@@ -1,0 +1,2288 @@
+{
+    "COMBAT_LEAGUE_DEFAULT_GREAT": {
+        "title": "combat_great_league",
+        "enabled": true,
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_great_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "leagueType": "STANDARD",
+        "allowTempEvos": true
+    },
+    "COMBAT_LEAGUE_DEFAULT_MASTER": {
+        "title": "combat_master_league",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "minPokemonCount": 3,
+                "withPokemonCpLimit": {
+                    "minCp": 2500,
+                    "maxCp": 50000
+                }
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 10000
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_master_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_MASTER_LEAGUE",
+        "leagueType": "STANDARD",
+        "allowTempEvos": true
+    },
+    "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+        "title": "combat_ultra_league",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "minPokemonCount": 3,
+                "withPokemonCpLimit": {
+                    "minCp": 1500,
+                    "maxCp": 50000
+                }
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 2500
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_ultra_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_ULTRA_LEAGUE",
+        "leagueType": "STANDARD",
+        "allowTempEvos": true
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT": {
+        "title": "combat_great_league",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_great_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "STANDARD"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_CATCH": {
+        "title": "catch_cup_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "POKEMON_CAUGHT_TIMESTAMP",
+                "pokemonCaughtTimestamp": {
+                    "afterTimestamp": "1604955600000"
+                }
+            },
+            {
+                "type": "POKEMON_LEVEL_RANGE",
+                "pokemonLevelRange": {
+                    "maxLevel": 40
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA",
+            "MEW",
+            "CELEBI",
+            "JIRACHI",
+            "VICTINI",
+            "MELTAN",
+            "MELMETAL",
+            "GENESECT"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "PREMIER"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+        "title": "flying_cup_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "WITH_POKEMON_TYPE",
+                "withPokemonType": {
+                    "pokemonType": [
+                        "POKEMON_TYPE_FLYING"
+                    ]
+                }
+            },
+            {
+                "type": "POKEMON_LEVEL_RANGE",
+                "pokemonLevelRange": {
+                    "maxLevel": 40
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/flying_cup.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "PREMIER"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
+        "title": "halloween_event_name",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "WITH_POKEMON_TYPE",
+                "withPokemonType": {
+                    "pokemonType": [
+                        "POKEMON_TYPE_BUG",
+                        "POKEMON_TYPE_POISON",
+                        "POKEMON_TYPE_DARK",
+                        "POKEMON_TYPE_FAIRY",
+                        "POKEMON_TYPE_GHOST"
+                    ]
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/halloween_cup.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "PREMIER"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+        "title": "holiday_cup_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "WITH_POKEMON_TYPE",
+                "withPokemonType": {
+                    "pokemonType": [
+                        "POKEMON_TYPE_ELECTRIC",
+                        "POKEMON_TYPE_FLYING",
+                        "POKEMON_TYPE_GHOST",
+                        "POKEMON_TYPE_GRASS",
+                        "POKEMON_TYPE_ICE",
+                        "POKEMON_TYPE_NORMAL"
+                    ]
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/holiday_league_icon.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "PREMIER"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+        "title": "kanto_cup_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "POKEMON_LEVEL_RANGE",
+                "pokemonLevelRange": {
+                    "maxLevel": 40
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA",
+            "CHIKORITA",
+            "BAYLEEF",
+            "MEGANIUM",
+            "CYNDAQUIL",
+            "QUILAVA",
+            "TYPHLOSION",
+            "TOTODILE",
+            "CROCONAW",
+            "FERALIGATR",
+            "SENTRET",
+            "FURRET",
+            "HOOTHOOT",
+            "NOCTOWL",
+            "LEDYBA",
+            "LEDIAN",
+            "SPINARAK",
+            "ARIADOS",
+            "CROBAT",
+            "CHINCHOU",
+            "LANTURN",
+            "PICHU",
+            "CLEFFA",
+            "IGGLYBUFF",
+            "TOGEPI",
+            "TOGETIC",
+            "NATU",
+            "XATU",
+            "MAREEP",
+            "FLAAFFY",
+            "AMPHAROS",
+            "BELLOSSOM",
+            "MARILL",
+            "AZUMARILL",
+            "SUDOWOODO",
+            "POLITOED",
+            "HOPPIP",
+            "SKIPLOOM",
+            "JUMPLUFF",
+            "AIPOM",
+            "SUNKERN",
+            "SUNFLORA",
+            "YANMA",
+            "WOOPER",
+            "QUAGSIRE",
+            "ESPEON",
+            "UMBREON",
+            "MURKROW",
+            "SLOWKING",
+            "MISDREAVUS",
+            "UNOWN",
+            "WOBBUFFET",
+            "GIRAFARIG",
+            "PINECO",
+            "FORRETRESS",
+            "DUNSPARCE",
+            "GLIGAR",
+            "STEELIX",
+            "SNUBBULL",
+            "GRANBULL",
+            "QWILFISH",
+            "SCIZOR",
+            "SHUCKLE",
+            "HERACROSS",
+            "SNEASEL",
+            "TEDDIURSA",
+            "URSARING",
+            "SLUGMA",
+            "MAGCARGO",
+            "SWINUB",
+            "PILOSWINE",
+            "CORSOLA",
+            "REMORAID",
+            "OCTILLERY",
+            "DELIBIRD",
+            "MANTINE",
+            "SKARMORY",
+            "HOUNDOUR",
+            "HOUNDOOM",
+            "KINGDRA",
+            "PHANPY",
+            "DONPHAN",
+            "PORYGON2",
+            "STANTLER",
+            "SMEARGLE",
+            "TYROGUE",
+            "HITMONTOP",
+            "SMOOCHUM",
+            "ELEKID",
+            "MAGBY",
+            "MILTANK",
+            "BLISSEY",
+            "RAIKOU",
+            "ENTEI",
+            "SUICUNE",
+            "LARVITAR",
+            "PUPITAR",
+            "TYRANITAR",
+            "LUGIA",
+            "HO_OH",
+            "CELEBI",
+            "TREECKO",
+            "GROVYLE",
+            "SCEPTILE",
+            "TORCHIC",
+            "COMBUSKEN",
+            "BLAZIKEN",
+            "MUDKIP",
+            "MARSHTOMP",
+            "SWAMPERT",
+            "POOCHYENA",
+            "MIGHTYENA",
+            "ZIGZAGOON",
+            "LINOONE",
+            "WURMPLE",
+            "SILCOON",
+            "BEAUTIFLY",
+            "CASCOON",
+            "DUSTOX",
+            "LOTAD",
+            "LOMBRE",
+            "LUDICOLO",
+            "SEEDOT",
+            "NUZLEAF",
+            "SHIFTRY",
+            "TAILLOW",
+            "SWELLOW",
+            "WINGULL",
+            "PELIPPER",
+            "RALTS",
+            "KIRLIA",
+            "GARDEVOIR",
+            "SURSKIT",
+            "MASQUERAIN",
+            "SHROOMISH",
+            "BRELOOM",
+            "SLAKOTH",
+            "VIGOROTH",
+            "SLAKING",
+            "NINCADA",
+            "NINJASK",
+            "SHEDINJA",
+            "WHISMUR",
+            "LOUDRED",
+            "EXPLOUD",
+            "MAKUHITA",
+            "HARIYAMA",
+            "AZURILL",
+            "NOSEPASS",
+            "SKITTY",
+            "DELCATTY",
+            "SABLEYE",
+            "MAWILE",
+            "ARON",
+            "LAIRON",
+            "AGGRON",
+            "MEDITITE",
+            "MEDICHAM",
+            "ELECTRIKE",
+            "MANECTRIC",
+            "PLUSLE",
+            "MINUN",
+            "VOLBEAT",
+            "ILLUMISE",
+            "ROSELIA",
+            "GULPIN",
+            "SWALOT",
+            "CARVANHA",
+            "SHARPEDO",
+            "WAILMER",
+            "WAILORD",
+            "NUMEL",
+            "CAMERUPT",
+            "TORKOAL",
+            "SPOINK",
+            "GRUMPIG",
+            "SPINDA",
+            "TRAPINCH",
+            "VIBRAVA",
+            "FLYGON",
+            "CACNEA",
+            "CACTURNE",
+            "SWABLU",
+            "ALTARIA",
+            "ZANGOOSE",
+            "SEVIPER",
+            "LUNATONE",
+            "SOLROCK",
+            "BARBOACH",
+            "WHISCASH",
+            "CORPHISH",
+            "CRAWDAUNT",
+            "BALTOY",
+            "CLAYDOL",
+            "LILEEP",
+            "CRADILY",
+            "ANORITH",
+            "ARMALDO",
+            "FEEBAS",
+            "MILOTIC",
+            "CASTFORM",
+            "KECLEON",
+            "SHUPPET",
+            "BANETTE",
+            "DUSKULL",
+            "DUSCLOPS",
+            "TROPIUS",
+            "CHIMECHO",
+            "ABSOL",
+            "WYNAUT",
+            "SNORUNT",
+            "GLALIE",
+            "SPHEAL",
+            "SEALEO",
+            "WALREIN",
+            "CLAMPERL",
+            "HUNTAIL",
+            "GOREBYSS",
+            "RELICANTH",
+            "LUVDISC",
+            "BAGON",
+            "SHELGON",
+            "SALAMENCE",
+            "BELDUM",
+            "METANG",
+            "METAGROSS",
+            "REGIROCK",
+            "REGICE",
+            "REGISTEEL",
+            "LATIAS",
+            "LATIOS",
+            "KYOGRE",
+            "GROUDON",
+            "RAYQUAZA",
+            "JIRACHI",
+            "DEOXYS",
+            "TURTWIG",
+            "GROTLE",
+            "TORTERRA",
+            "CHIMCHAR",
+            "MONFERNO",
+            "INFERNAPE",
+            "PIPLUP",
+            "PRINPLUP",
+            "EMPOLEON",
+            "STARLY",
+            "STARAVIA",
+            "STARAPTOR",
+            "BIDOOF",
+            "BIBAREL",
+            "KRICKETOT",
+            "KRICKETUNE",
+            "SHINX",
+            "LUXIO",
+            "LUXRAY",
+            "BUDEW",
+            "ROSERADE",
+            "CRANIDOS",
+            "RAMPARDOS",
+            "SHIELDON",
+            "BASTIODON",
+            "BURMY",
+            "WORMADAM",
+            "MOTHIM",
+            "COMBEE",
+            "VESPIQUEN",
+            "PACHIRISU",
+            "BUIZEL",
+            "FLOATZEL",
+            "CHERUBI",
+            "CHERRIM",
+            "SHELLOS",
+            "GASTRODON",
+            "AMBIPOM",
+            "DRIFLOON",
+            "DRIFBLIM",
+            "BUNEARY",
+            "LOPUNNY",
+            "MISMAGIUS",
+            "HONCHKROW",
+            "GLAMEOW",
+            "PURUGLY",
+            "CHINGLING",
+            "STUNKY",
+            "SKUNTANK",
+            "BRONZOR",
+            "BRONZONG",
+            "BONSLY",
+            "MIME_JR",
+            "HAPPINY",
+            "CHATOT",
+            "SPIRITOMB",
+            "GIBLE",
+            "GABITE",
+            "GARCHOMP",
+            "MUNCHLAX",
+            "RIOLU",
+            "LUCARIO",
+            "HIPPOPOTAS",
+            "HIPPOWDON",
+            "SKORUPI",
+            "DRAPION",
+            "CROAGUNK",
+            "TOXICROAK",
+            "CARNIVINE",
+            "FINNEON",
+            "LUMINEON",
+            "MANTYKE",
+            "SNOVER",
+            "ABOMASNOW",
+            "WEAVILE",
+            "MAGNEZONE",
+            "LICKILICKY",
+            "RHYPERIOR",
+            "TANGROWTH",
+            "ELECTIVIRE",
+            "MAGMORTAR",
+            "TOGEKISS",
+            "YANMEGA",
+            "LEAFEON",
+            "GLACEON",
+            "GLISCOR",
+            "MAMOSWINE",
+            "PORYGON_Z",
+            "GALLADE",
+            "PROBOPASS",
+            "DUSKNOIR",
+            "FROSLASS",
+            "ROTOM",
+            "UXIE",
+            "MESPRIT",
+            "AZELF",
+            "DIALGA",
+            "PALKIA",
+            "HEATRAN",
+            "REGIGIGAS",
+            "GIRATINA",
+            "CRESSELIA",
+            "PHIONE",
+            "MANAPHY",
+            "DARKRAI",
+            "SHAYMIN",
+            "ARCEUS",
+            "VICTINI",
+            "SNIVY",
+            "SERVINE",
+            "SERPERIOR",
+            "TEPIG",
+            "PIGNITE",
+            "EMBOAR",
+            "OSHAWOTT",
+            "DEWOTT",
+            "SAMUROTT",
+            "PATRAT",
+            "WATCHOG",
+            "LILLIPUP",
+            "HERDIER",
+            "STOUTLAND",
+            "PURRLOIN",
+            "LIEPARD",
+            "PANSAGE",
+            "SIMISAGE",
+            "PANSEAR",
+            "SIMISEAR",
+            "PANPOUR",
+            "SIMIPOUR",
+            "MUNNA",
+            "MUSHARNA",
+            "PIDOVE",
+            "TRANQUILL",
+            "UNFEZANT",
+            "BLITZLE",
+            "ZEBSTRIKA",
+            "ROGGENROLA",
+            "BOLDORE",
+            "GIGALITH",
+            "WOOBAT",
+            "SWOOBAT",
+            "DRILBUR",
+            "EXCADRILL",
+            "AUDINO",
+            "TIMBURR",
+            "GURDURR",
+            "CONKELDURR",
+            "TYMPOLE",
+            "PALPITOAD",
+            "SEISMITOAD",
+            "THROH",
+            "SAWK",
+            "SEWADDLE",
+            "SWADLOON",
+            "LEAVANNY",
+            "VENIPEDE",
+            "WHIRLIPEDE",
+            "SCOLIPEDE",
+            "COTTONEE",
+            "WHIMSICOTT",
+            "PETILIL",
+            "LILLIGANT",
+            "BASCULIN",
+            "SANDILE",
+            "KROKOROK",
+            "KROOKODILE",
+            "DARUMAKA",
+            "DARMANITAN",
+            "MARACTUS",
+            "DWEBBLE",
+            "CRUSTLE",
+            "SCRAGGY",
+            "SCRAFTY",
+            "SIGILYPH",
+            "YAMASK",
+            "COFAGRIGUS",
+            "TIRTOUGA",
+            "CARRACOSTA",
+            "ARCHEN",
+            "ARCHEOPS",
+            "TRUBBISH",
+            "GARBODOR",
+            "ZORUA",
+            "ZOROARK",
+            "MINCCINO",
+            "CINCCINO",
+            "GOTHITA",
+            "GOTHORITA",
+            "GOTHITELLE",
+            "SOLOSIS",
+            "DUOSION",
+            "REUNICLUS",
+            "DUCKLETT",
+            "SWANNA",
+            "VANILLITE",
+            "VANILLISH",
+            "VANILLUXE",
+            "DEERLING",
+            "SAWSBUCK",
+            "EMOLGA",
+            "KARRABLAST",
+            "ESCAVALIER",
+            "FOONGUS",
+            "AMOONGUSS",
+            "FRILLISH",
+            "JELLICENT",
+            "ALOMOMOLA",
+            "JOLTIK",
+            "GALVANTULA",
+            "FERROSEED",
+            "FERROTHORN",
+            "KLINK",
+            "KLANG",
+            "KLINKLANG",
+            "TYNAMO",
+            "EELEKTRIK",
+            "EELEKTROSS",
+            "ELGYEM",
+            "BEHEEYEM",
+            "LITWICK",
+            "LAMPENT",
+            "CHANDELURE",
+            "AXEW",
+            "FRAXURE",
+            "HAXORUS",
+            "CUBCHOO",
+            "BEARTIC",
+            "CRYOGONAL",
+            "SHELMET",
+            "ACCELGOR",
+            "STUNFISK",
+            "MIENFOO",
+            "MIENSHAO",
+            "DRUDDIGON",
+            "GOLETT",
+            "GOLURK",
+            "PAWNIARD",
+            "BISHARP",
+            "BOUFFALANT",
+            "RUFFLET",
+            "BRAVIARY",
+            "VULLABY",
+            "MANDIBUZZ",
+            "HEATMOR",
+            "DURANT",
+            "DEINO",
+            "ZWEILOUS",
+            "HYDREIGON",
+            "LARVESTA",
+            "VOLCARONA",
+            "COBALION",
+            "TERRAKION",
+            "VIRIZION",
+            "TORNADUS",
+            "THUNDURUS",
+            "RESHIRAM",
+            "ZEKROM",
+            "LANDORUS",
+            "KYUREM",
+            "KELDEO",
+            "MELOETTA",
+            "GENESECT",
+            "MELTAN",
+            "MELMETAL",
+            "OBSTAGOON",
+            "PERRSERKER",
+            "SIRFETCHD",
+            "RUNERIGUS"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "STANDARD"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_LITTLE": {
+        "title": "little_cup_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "POKEMON_BANLIST",
+                "pokemonBanList": {
+                    "pokemon": [
+                        {
+                            "id": "FARFETCHD"
+                        },
+                        {
+                            "id": "FARFETCHD",
+                            "form": "FARFETCHD_NORMAL"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "POKEMON_LEVEL_RANGE",
+                "pokemonLevelRange": {
+                    "maxLevel": 40
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA",
+            "IVYSAUR",
+            "VENUSAUR",
+            "CHARMELEON",
+            "CHARIZARD",
+            "WARTORTLE",
+            "BLASTOISE",
+            "METAPOD",
+            "BUTTERFREE",
+            "KAKUNA",
+            "BEEDRILL",
+            "PIDGEOTTO",
+            "PIDGEOT",
+            "RATICATE",
+            "FEAROW",
+            "ARBOK",
+            "PIKACHU",
+            "RAICHU",
+            "SANDSLASH",
+            "NIDORINA",
+            "NIDOQUEEN",
+            "NIDORINO",
+            "NIDOKING",
+            "CLEFAIRY",
+            "CLEFABLE",
+            "NINETALES",
+            "JIGGLYPUFF",
+            "WIGGLYTUFF",
+            "GOLBAT",
+            "GLOOM",
+            "VILEPLUME",
+            "PARASECT",
+            "VENOMOTH",
+            "DUGTRIO",
+            "PERSIAN",
+            "GOLDUCK",
+            "PRIMEAPE",
+            "ARCANINE",
+            "POLIWHIRL",
+            "POLIWRATH",
+            "KADABRA",
+            "ALAKAZAM",
+            "MACHOKE",
+            "MACHAMP",
+            "WEEPINBELL",
+            "VICTREEBEL",
+            "TENTACRUEL",
+            "GRAVELER",
+            "GOLEM",
+            "RAPIDASH",
+            "SLOWBRO",
+            "MAGNETON",
+            "DODRIO",
+            "DEWGONG",
+            "MUK",
+            "CLOYSTER",
+            "HAUNTER",
+            "GENGAR",
+            "HYPNO",
+            "KINGLER",
+            "ELECTRODE",
+            "EXEGGUTOR",
+            "MAROWAK",
+            "HITMONLEE",
+            "HITMONCHAN",
+            "WEEZING",
+            "RHYDON",
+            "CHANSEY",
+            "KANGASKHAN",
+            "SEADRA",
+            "SEAKING",
+            "STARMIE",
+            "MR_MIME",
+            "JYNX",
+            "ELECTABUZZ",
+            "MAGMAR",
+            "PINSIR",
+            "TAUROS",
+            "GYARADOS",
+            "LAPRAS",
+            "DITTO",
+            "VAPOREON",
+            "JOLTEON",
+            "FLAREON",
+            "OMASTAR",
+            "KABUTOPS",
+            "AERODACTYL",
+            "SNORLAX",
+            "ARTICUNO",
+            "ZAPDOS",
+            "MOLTRES",
+            "DRAGONAIR",
+            "DRAGONITE",
+            "MEWTWO",
+            "MEW",
+            "BAYLEEF",
+            "MEGANIUM",
+            "QUILAVA",
+            "TYPHLOSION",
+            "CROCONAW",
+            "FERALIGATR",
+            "FURRET",
+            "NOCTOWL",
+            "LEDIAN",
+            "ARIADOS",
+            "CROBAT",
+            "LANTURN",
+            "TOGETIC",
+            "XATU",
+            "FLAAFFY",
+            "AMPHAROS",
+            "BELLOSSOM",
+            "MARILL",
+            "AZUMARILL",
+            "SUDOWOODO",
+            "POLITOED",
+            "SKIPLOOM",
+            "JUMPLUFF",
+            "SUNFLORA",
+            "QUAGSIRE",
+            "ESPEON",
+            "UMBREON",
+            "SLOWKING",
+            "UNOWN",
+            "WOBBUFFET",
+            "GIRAFARIG",
+            "FORRETRESS",
+            "DUNSPARCE",
+            "STEELIX",
+            "GRANBULL",
+            "QWILFISH",
+            "SCIZOR",
+            "SHUCKLE",
+            "HERACROSS",
+            "URSARING",
+            "MAGCARGO",
+            "PILOSWINE",
+            "CORSOLA",
+            "OCTILLERY",
+            "DELIBIRD",
+            "MANTINE",
+            "SKARMORY",
+            "HOUNDOOM",
+            "KINGDRA",
+            "DONPHAN",
+            "PORYGON2",
+            "STANTLER",
+            "SMEARGLE",
+            "HITMONTOP",
+            "MILTANK",
+            "BLISSEY",
+            "RAIKOU",
+            "ENTEI",
+            "SUICUNE",
+            "PUPITAR",
+            "TYRANITAR",
+            "LUGIA",
+            "HO_OH",
+            "CELEBI",
+            "GROVYLE",
+            "SCEPTILE",
+            "COMBUSKEN",
+            "BLAZIKEN",
+            "MARSHTOMP",
+            "SWAMPERT",
+            "MIGHTYENA",
+            "LINOONE",
+            "SILCOON",
+            "BEAUTIFLY",
+            "CASCOON",
+            "DUSTOX",
+            "LOMBRE",
+            "LUDICOLO",
+            "NUZLEAF",
+            "SHIFTRY",
+            "SWELLOW",
+            "PELIPPER",
+            "KIRLIA",
+            "GARDEVOIR",
+            "MASQUERAIN",
+            "BRELOOM",
+            "VIGOROTH",
+            "SLAKING",
+            "NINJASK",
+            "SHEDINJA",
+            "LOUDRED",
+            "EXPLOUD",
+            "HARIYAMA",
+            "DELCATTY",
+            "SABLEYE",
+            "MAWILE",
+            "LAIRON",
+            "AGGRON",
+            "MEDICHAM",
+            "MANECTRIC",
+            "PLUSLE",
+            "MINUN",
+            "VOLBEAT",
+            "ILLUMISE",
+            "ROSELIA",
+            "SWALOT",
+            "SHARPEDO",
+            "WAILORD",
+            "CAMERUPT",
+            "TORKOAL",
+            "GRUMPIG",
+            "SPINDA",
+            "VIBRAVA",
+            "FLYGON",
+            "CACTURNE",
+            "ALTARIA",
+            "ZANGOOSE",
+            "SEVIPER",
+            "LUNATONE",
+            "SOLROCK",
+            "WHISCASH",
+            "CRAWDAUNT",
+            "CLAYDOL",
+            "CRADILY",
+            "ARMALDO",
+            "MILOTIC",
+            "CASTFORM",
+            "KECLEON",
+            "BANETTE",
+            "DUSCLOPS",
+            "TROPIUS",
+            "CHIMECHO",
+            "ABSOL",
+            "GLALIE",
+            "SEALEO",
+            "WALREIN",
+            "HUNTAIL",
+            "GOREBYSS",
+            "RELICANTH",
+            "LUVDISC",
+            "SHELGON",
+            "SALAMENCE",
+            "METANG",
+            "METAGROSS",
+            "REGIROCK",
+            "REGICE",
+            "REGISTEEL",
+            "LATIAS",
+            "LATIOS",
+            "KYOGRE",
+            "GROUDON",
+            "RAYQUAZA",
+            "JIRACHI",
+            "DEOXYS",
+            "GROTLE",
+            "TORTERRA",
+            "MONFERNO",
+            "INFERNAPE",
+            "PRINPLUP",
+            "EMPOLEON",
+            "STARAVIA",
+            "STARAPTOR",
+            "BIBAREL",
+            "KRICKETUNE",
+            "LUXIO",
+            "LUXRAY",
+            "ROSERADE",
+            "RAMPARDOS",
+            "BASTIODON",
+            "WORMADAM",
+            "MOTHIM",
+            "VESPIQUEN",
+            "PACHIRISU",
+            "FLOATZEL",
+            "CHERRIM",
+            "GASTRODON",
+            "AMBIPOM",
+            "DRIFBLIM",
+            "LOPUNNY",
+            "MISMAGIUS",
+            "HONCHKROW",
+            "PURUGLY",
+            "SKUNTANK",
+            "BRONZONG",
+            "CHATOT",
+            "SPIRITOMB",
+            "GABITE",
+            "GARCHOMP",
+            "LUCARIO",
+            "HIPPOWDON",
+            "DRAPION",
+            "TOXICROAK",
+            "CARNIVINE",
+            "LUMINEON",
+            "ABOMASNOW",
+            "WEAVILE",
+            "MAGNEZONE",
+            "LICKILICKY",
+            "RHYPERIOR",
+            "TANGROWTH",
+            "ELECTIVIRE",
+            "MAGMORTAR",
+            "TOGEKISS",
+            "YANMEGA",
+            "LEAFEON",
+            "GLACEON",
+            "GLISCOR",
+            "MAMOSWINE",
+            "PORYGON_Z",
+            "GALLADE",
+            "PROBOPASS",
+            "DUSKNOIR",
+            "FROSLASS",
+            "ROTOM",
+            "UXIE",
+            "MESPRIT",
+            "AZELF",
+            "DIALGA",
+            "PALKIA",
+            "HEATRAN",
+            "REGIGIGAS",
+            "GIRATINA",
+            "CRESSELIA",
+            "PHIONE",
+            "MANAPHY",
+            "DARKRAI",
+            "SHAYMIN",
+            "ARCEUS",
+            "VICTINI",
+            "SERVINE",
+            "SERPERIOR",
+            "PIGNITE",
+            "EMBOAR",
+            "DEWOTT",
+            "SAMUROTT",
+            "WATCHOG",
+            "HERDIER",
+            "STOUTLAND",
+            "LIEPARD",
+            "SIMISAGE",
+            "SIMISEAR",
+            "SIMIPOUR",
+            "MUSHARNA",
+            "TRANQUILL",
+            "UNFEZANT",
+            "ZEBSTRIKA",
+            "BOLDORE",
+            "GIGALITH",
+            "SWOOBAT",
+            "EXCADRILL",
+            "AUDINO",
+            "GURDURR",
+            "CONKELDURR",
+            "PALPITOAD",
+            "SEISMITOAD",
+            "THROH",
+            "SAWK",
+            "SWADLOON",
+            "LEAVANNY",
+            "WHIRLIPEDE",
+            "SCOLIPEDE",
+            "WHIMSICOTT",
+            "LILLIGANT",
+            "BASCULIN",
+            "KROKOROK",
+            "KROOKODILE",
+            "DARMANITAN",
+            "MARACTUS",
+            "CRUSTLE",
+            "SCRAFTY",
+            "SIGILYPH",
+            "COFAGRIGUS",
+            "CARRACOSTA",
+            "ARCHEOPS",
+            "GARBODOR",
+            "ZOROARK",
+            "CINCCINO",
+            "GOTHORITA",
+            "GOTHITELLE",
+            "DUOSION",
+            "REUNICLUS",
+            "SWANNA",
+            "VANILLISH",
+            "VANILLUXE",
+            "SAWSBUCK",
+            "EMOLGA",
+            "ESCAVALIER",
+            "AMOONGUSS",
+            "JELLICENT",
+            "ALOMOMOLA",
+            "GALVANTULA",
+            "FERROTHORN",
+            "KLANG",
+            "KLINKLANG",
+            "EELEKTROSS",
+            "BEHEEYEM",
+            "LAMPENT",
+            "CHANDELURE",
+            "FRAXURE",
+            "HAXORUS",
+            "BEARTIC",
+            "CRYOGONAL",
+            "ACCELGOR",
+            "STUNFISK",
+            "MIENSHAO",
+            "DRUDDIGON",
+            "GOLURK",
+            "BISHARP",
+            "BOUFFALANT",
+            "BRAVIARY",
+            "MANDIBUZZ",
+            "HEATMOR",
+            "DURANT",
+            "ZWEILOUS",
+            "HYDREIGON",
+            "VOLCARONA",
+            "COBALION",
+            "TERRAKION",
+            "VIRIZION",
+            "TORNADUS",
+            "THUNDURUS",
+            "RESHIRAM",
+            "ZEKROM",
+            "LANDORUS",
+            "KYUREM",
+            "KELDEO",
+            "MELOETTA",
+            "GENESECT",
+            "MELMETAL",
+            "OBSTAGOON",
+            "PERRSERKER",
+            "SIRFETCHD",
+            "RUNERIGUS",
+            "OMANYTE"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "STANDARD"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_GREAT_LOVE": {
+        "title": "love_cup_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 1500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "POKEMON_WHITELIST",
+                "pokemonWhiteList": {
+                    "pokemon": [
+                        {
+                            "id": "CHARMANDER"
+                        },
+                        {
+                            "id": "CHARMANDER",
+                            "form": "CHARMANDER_NORMAL"
+                        },
+                        {
+                            "id": "CHARMANDER",
+                            "form": "CHARMANDER_SHADOW"
+                        },
+                        {
+                            "id": "CHARMANDER",
+                            "form": "CHARMANDER_PURIFIED"
+                        },
+                        {
+                            "id": "CHARMANDER",
+                            "form": "CHARMANDER_FALL_2019"
+                        },
+                        {
+                            "id": "CHARMELEON"
+                        },
+                        {
+                            "id": "CHARMELEON",
+                            "form": "CHARMELEON_NORMAL"
+                        },
+                        {
+                            "id": "CHARMELEON",
+                            "form": "CHARMELEON_SHADOW"
+                        },
+                        {
+                            "id": "CHARMELEON",
+                            "form": "CHARMELEON_PURIFIED"
+                        },
+                        {
+                            "id": "CHARIZARD"
+                        },
+                        {
+                            "id": "CHARIZARD",
+                            "form": "CHARIZARD_NORMAL"
+                        },
+                        {
+                            "id": "CHARIZARD",
+                            "form": "CHARIZARD_SHADOW"
+                        },
+                        {
+                            "id": "CHARIZARD",
+                            "form": "CHARIZARD_SHADOW"
+                        },
+                        {
+                            "id": "CHARIZARD",
+                            "form": "CHARIZARD_PURIFIED"
+                        },
+                        {
+                            "id": "CHARIZARD",
+                            "form": "CHARIZARD_COPY_2019"
+                        },
+                        {
+                            "id": "CLEFAIRY"
+                        },
+                        {
+                            "id": "CLEFABLE"
+                        },
+                        {
+                            "id": "JIGGLYPUFF"
+                        },
+                        {
+                            "id": "WIGGLYTUFF"
+                        },
+                        {
+                            "id": "VILEPLUME"
+                        },
+                        {
+                            "id": "VILEPLUME",
+                            "form": "VILEPLUME_NORMAL"
+                        },
+                        {
+                            "id": "VILEPLUME",
+                            "form": "VILEPLUME_SHADOW"
+                        },
+                        {
+                            "id": "VILEPLUME",
+                            "form": "VILEPLUME_PURIFIED"
+                        },
+                        {
+                            "id": "PARAS"
+                        },
+                        {
+                            "id": "PARASECT"
+                        },
+                        {
+                            "id": "SLOWPOKE"
+                        },
+                        {
+                            "id": "SLOWPOKE",
+                            "form": "SLOWPOKE_NORMAL"
+                        },
+                        {
+                            "id": "SLOWPOKE",
+                            "form": "SLOWPOKE_SHADOW"
+                        },
+                        {
+                            "id": "SLOWPOKE",
+                            "form": "SLOWPOKE_PURIFIED"
+                        },
+                        {
+                            "id": "SLOWPOKE",
+                            "form": "SLOWPOKE_2020"
+                        },
+                        {
+                            "id": "SLOWBRO"
+                        },
+                        {
+                            "id": "SLOWBRO",
+                            "form": "SLOWBRO_NORMAL"
+                        },
+                        {
+                            "id": "SLOWBRO",
+                            "form": "SLOWBRO_SHADOW"
+                        },
+                        {
+                            "id": "SLOWBRO",
+                            "form": "SLOWBRO_PURIFIED"
+                        },
+                        {
+                            "id": "SLOWBRO",
+                            "form": "SLOWBRO_2021"
+                        },
+                        {
+                            "id": "KRABBY"
+                        },
+                        {
+                            "id": "KRABBY",
+                            "form": "KRABBY_NORMAL"
+                        },
+                        {
+                            "id": "KRABBY",
+                            "form": "KRABBY_SHADOW"
+                        },
+                        {
+                            "id": "KRABBY",
+                            "form": "KRABBY_PURIFIED"
+                        },
+                        {
+                            "id": "KINGLER"
+                        },
+                        {
+                            "id": "KINGLER",
+                            "form": "KINGLER_NORMAL"
+                        },
+                        {
+                            "id": "KINGLER",
+                            "form": "KINGLER_SHADOW"
+                        },
+                        {
+                            "id": "KINGLER",
+                            "form": "KINGLER_PURIFIED"
+                        },
+                        {
+                            "id": "VOLTORB"
+                        },
+                        {
+                            "id": "ELECTRODE"
+                        },
+                        {
+                            "id": "EXEGGCUTE"
+                        },
+                        {
+                            "id": "EXEGGCUTE",
+                            "form": "EXEGGCUTE_NORMAL"
+                        },
+                        {
+                            "id": "EXEGGCUTE",
+                            "form": "EXEGGCUTE_SHADOW"
+                        },
+                        {
+                            "id": "EXEGGCUTE",
+                            "form": "EXEGGCUTE_PURIFIED"
+                        },
+                        {
+                            "id": "LICKITUNG"
+                        },
+                        {
+                            "id": "CHANSEY"
+                        },
+                        {
+                            "id": "GOLDEEN"
+                        },
+                        {
+                            "id": "SEAKING"
+                        },
+                        {
+                            "id": "MR_MIME",
+                            "forms": [
+                                "FORM_UNSET"
+                            ]
+                        },
+                        {
+                            "id": "MR_MIME",
+                            "form": "MR_MIME_NORMAL",
+                            "forms": [
+                                "MR_MIME_NORMAL"
+                            ]
+                        },
+                        {
+                            "id": "MR_MIME",
+                            "form": "MR_MIME_SHADOW",
+                            "forms": [
+                                "MR_MIME_SHADOW"
+                            ]
+                        },
+                        {
+                            "id": "MR_MIME",
+                            "form": "MR_MIME_PURIFIED",
+                            "forms": [
+                                "MR_MIME_PURIFIED"
+                            ]
+                        },
+                        {
+                            "id": "JYNX"
+                        },
+                        {
+                            "id": "MAGMAR"
+                        },
+                        {
+                            "id": "MAGMAR",
+                            "form": "MAGMAR_NORMAL"
+                        },
+                        {
+                            "id": "MAGMAR",
+                            "form": "MAGMAR_SHADOW"
+                        },
+                        {
+                            "id": "MAGMAR",
+                            "form": "MAGMAR_PURIFIED"
+                        },
+                        {
+                            "id": "MAGIKARP"
+                        },
+                        {
+                            "id": "MAGIKARP",
+                            "form": "MAGIKARP_NORMAL"
+                        },
+                        {
+                            "id": "MAGIKARP",
+                            "form": "MAGIKARP_SHADOW"
+                        },
+                        {
+                            "id": "MAGIKARP",
+                            "form": "MAGIKARP_PURIFIED"
+                        },
+                        {
+                            "id": "FLAREON"
+                        },
+                        {
+                            "id": "PORYGON"
+                        },
+                        {
+                            "id": "LEDYBA"
+                        },
+                        {
+                            "id": "LEDIAN"
+                        },
+                        {
+                            "id": "ARIADOS"
+                        },
+                        {
+                            "id": "CLEFFA"
+                        },
+                        {
+                            "id": "IGGLYBUFF"
+                        },
+                        {
+                            "id": "FLAAFFY"
+                        },
+                        {
+                            "id": "FLAAFFY",
+                            "form": "FLAAFFY_NORMAL"
+                        },
+                        {
+                            "id": "FLAAFFY",
+                            "form": "FLAAFFY_SHADOW"
+                        },
+                        {
+                            "id": "FLAAFFY",
+                            "form": "FLAAFFY_PURIFIED"
+                        },
+                        {
+                            "id": "HOPPIP"
+                        },
+                        {
+                            "id": "HOPPIP",
+                            "form": "HOPPIP_NORMAL"
+                        },
+                        {
+                            "id": "HOPPIP",
+                            "form": "HOPPIP_PURIFIED"
+                        },
+                        {
+                            "id": "HOPPIP",
+                            "form": "HOPPIP_SHADOW"
+                        },
+                        {
+                            "id": "YANMA"
+                        },
+                        {
+                            "id": "SLOWKING"
+                        },
+                        {
+                            "id": "SLOWKING",
+                            "form": "SLOWKING_NORMAL"
+                        },
+                        {
+                            "id": "SLOWKING",
+                            "form": "SLOWKING_PURIFIED"
+                        },
+                        {
+                            "id": "SLOWKING",
+                            "form": "SLOWKING_SHADOW"
+                        },
+                        {
+                            "id": "SNUBBULL"
+                        },
+                        {
+                            "id": "SCIZOR"
+                        },
+                        {
+                            "id": "SCIZOR",
+                            "form": "SCIZOR_NORMAL"
+                        },
+                        {
+                            "id": "SLUGMA"
+                        },
+                        {
+                            "id": "MAGCARGO"
+                        },
+                        {
+                            "id": "CORSOLA"
+                        },
+                        {
+                            "id": "OCTILLERY"
+                        },
+                        {
+                            "id": "DELIBIRD"
+                        },
+                        {
+                            "id": "DELIBIRD",
+                            "form": "DELIBIRD_NORMAL"
+                        },
+                        {
+                            "id": "DELIBIRD",
+                            "form": "DELIBIRD_PURIFIED"
+                        },
+                        {
+                            "id": "DELIBIRD",
+                            "form": "DELIBIRD_SHADOW"
+                        },
+                        {
+                            "id": "DELIBIRD",
+                            "form": "DELIBIRD_WINTER_2020"
+                        },
+                        {
+                            "id": "PORYGON2"
+                        },
+                        {
+                            "id": "PORYGON2",
+                            "form": "PORYGON2_NORMAL"
+                        },
+                        {
+                            "id": "PORYGON2",
+                            "form": "PORYGON2_PURIFIED"
+                        },
+                        {
+                            "id": "PORYGON2",
+                            "form": "PORYGON2_SHADOW"
+                        },
+                        {
+                            "id": "SMOOCHUM"
+                        },
+                        {
+                            "id": "MAGBY"
+                        },
+                        {
+                            "id": "MILTANK"
+                        },
+                        {
+                            "id": "BLISSEY"
+                        },
+                        {
+                            "id": "TORCHIC"
+                        },
+                        {
+                            "id": "COMBUSKEN"
+                        },
+                        {
+                            "id": "BLAZIKEN"
+                        },
+                        {
+                            "id": "WURMPLE"
+                        },
+                        {
+                            "id": "WHISMUR"
+                        },
+                        {
+                            "id": "SKITTY"
+                        },
+                        {
+                            "id": "MEDICHAM"
+                        },
+                        {
+                            "id": "CARVANHA"
+                        },
+                        {
+                            "id": "CARVANHA",
+                            "form": "CARVANHA_NORMAL"
+                        },
+                        {
+                            "id": "CARVANHA",
+                            "form": "CARVANHA_SHADOW"
+                        },
+                        {
+                            "id": "CARVANHA",
+                            "form": "CARVANHA_PURIFIED"
+                        },
+                        {
+                            "id": "CAMERUPT"
+                        },
+                        {
+                            "id": "SOLROCK"
+                        },
+                        {
+                            "id": "CORPHISH"
+                        },
+                        {
+                            "id": "CRAWDAUNT"
+                        },
+                        {
+                            "id": "MILOTIC"
+                        },
+                        {
+                            "id": "GOREBYSS"
+                        },
+                        {
+                            "id": "LUVDISC"
+                        },
+                        {
+                            "id": "KRICKETOT"
+                        },
+                        {
+                            "id": "KRICKETUNE"
+                        },
+                        {
+                            "id": "BURMY",
+                            "form": "BURMY_TRASH",
+                            "forms": [
+                                "BURMY_TRASH"
+                            ]
+                        },
+                        {
+                            "id": "WORMADAM",
+                            "form": "WORMADAM_TRASH",
+                            "forms": [
+                                "WORMADAM_TRASH"
+                            ]
+                        },
+                        {
+                            "id": "CHERUBI"
+                        },
+                        {
+                            "id": "CHERRIM",
+                            "form": "CHERRIM_SUNNY",
+                            "forms": [
+                                "CHERRIM_SUNNY"
+                            ]
+                        },
+                        {
+                            "id": "HAPPINY"
+                        },
+                        {
+                            "id": "LICKILICKY"
+                        },
+                        {
+                            "id": "MAGMORTAR"
+                        },
+                        {
+                            "id": "MAGMORTAR",
+                            "form": "MAGMORTAR_NORMAL"
+                        },
+                        {
+                            "id": "MAGMORTAR",
+                            "form": "MAGMORTAR_SHADOW"
+                        },
+                        {
+                            "id": "MAGMORTAR",
+                            "form": "MAGMORTAR_PURIFIED"
+                        },
+                        {
+                            "id": "PORYGON_Z"
+                        },
+                        {
+                            "id": "PORYGON_Z",
+                            "form": "PORYGON_Z_NORMAL"
+                        },
+                        {
+                            "id": "PORYGON_Z",
+                            "form": "PORYGON_Z_PURIFIED"
+                        },
+                        {
+                            "id": "PORYGON_Z",
+                            "form": "PORYGON_Z_SHADOW"
+                        },
+                        {
+                            "id": "ROTOM",
+                            "form": "ROTOM_WASH"
+                        },
+                        {
+                            "id": "TEPIG"
+                        },
+                        {
+                            "id": "PIGNITE"
+                        },
+                        {
+                            "id": "EMBOAR"
+                        },
+                        {
+                            "id": "PANSEAR"
+                        },
+                        {
+                            "id": "SIMISEAR"
+                        },
+                        {
+                            "id": "AUDINO"
+                        },
+                        {
+                            "id": "THROH"
+                        },
+                        {
+                            "id": "VENIPEDE"
+                        },
+                        {
+                            "id": "SCOLIPEDE"
+                        },
+                        {
+                            "id": "KROOKODILE"
+                        },
+                        {
+                            "id": "DARUMAKA",
+                            "forms": [
+                                "FORM_UNSET"
+                            ]
+                        },
+                        {
+                            "id": "DARUMAKA",
+                            "form": "DARUMAKA_NORMAL",
+                            "forms": [
+                                "DARUMAKA_NORMAL"
+                            ]
+                        },
+                        {
+                            "id": "DARUMAKA",
+                            "form": "DARUMAKA_SHADOW",
+                            "forms": [
+                                "DARUMAKA_SHADOW"
+                            ]
+                        },
+                        {
+                            "id": "DARUMAKA",
+                            "form": "DARUMAKA_PURIFIED",
+                            "forms": [
+                                "DARUMAKA_PURIFIED"
+                            ]
+                        },
+                        {
+                            "id": "DARMANITAN",
+                            "form": "DARMANITAN_ZEN",
+                            "forms": [
+                                "DARMANITAN_ZEN"
+                            ]
+                        },
+                        {
+                            "id": "DARMANITAN",
+                            "form": "DARMANITAN_STANDARD",
+                            "forms": [
+                                "DARMANITAN_STANDARD"
+                            ]
+                        },
+                        {
+                            "id": "DWEBBLE"
+                        },
+                        {
+                            "id": "CRUSTLE"
+                        },
+                        {
+                            "id": "SCRAFTY"
+                        },
+                        {
+                            "id": "DEERLING",
+                            "form": "DEERLING_SPRING",
+                            "forms": [
+                                "DEERLING_SPRING"
+                            ]
+                        },
+                        {
+                            "id": "DEERLING",
+                            "form": "DEERLING_AUTUMN",
+                            "forms": [
+                                "DEERLING_AUTUMN"
+                            ]
+                        },
+                        {
+                            "id": "ALOMOMOLA"
+                        },
+                        {
+                            "id": "SHELMET"
+                        },
+                        {
+                            "id": "ACCELGOR"
+                        },
+                        {
+                            "id": "PAWNIARD"
+                        },
+                        {
+                            "id": "BISHARP"
+                        },
+                        {
+                            "id": "BRAVIARY"
+                        },
+                        {
+                            "id": "HEATMOR"
+                        },
+                        {
+                            "id": "FENNEKIN"
+                        },
+                        {
+                            "id": "BRAIXEN"
+                        },
+                        {
+                            "id": "DELPHOX"
+                        },
+                        {
+                            "id": "FLETCHLING"
+                        },
+                        {
+                            "id": "TALONFLAME"
+                        },
+                        {
+                            "id": "CASTFORM",
+                            "form": "CASTFORM_SUNNY",
+                            "forms": [
+                                "CASTFORM_SUNNY"
+                            ]
+                        },
+                        {
+                            "id": "MIME_JR"
+                        },
+                        {
+                            "id": "FLETCHINDER"
+                        },
+                        {
+                            "id": "SCIZOR",
+                            "form": "SCIZOR_SHADOW"
+                        },
+                        {
+                            "id": "SCIZOR",
+                            "form": "SCIZOR_PURIFIED"
+                        },
+                        {
+                            "id": "PORYGON",
+                            "form": "PORYGON_NORMAL"
+                        },
+                        {
+                            "id": "PORYGON",
+                            "form": "PORYGON_SHADOW"
+                        },
+                        {
+                            "id": "PORYGON",
+                            "form": "PORYGON_PURIFIED"
+                        },
+                        {
+                            "id": "MUNNA"
+                        },
+                        {
+                            "id": "MUSHARNA"
+                        }
+                    ]
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_GREAT_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_GREAT",
+        "leagueType": "STANDARD"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_MASTER": {
+        "title": "combat_master_league",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 6000
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_master_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_MASTER_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
+        "leagueType": "STANDARD"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_MASTER_CLASSIC": {
+        "title": "master_classic_title",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 6000
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            },
+            {
+                "type": "POKEMON_LEVEL_RANGE",
+                "pokemonLevelRange": {
+                    "maxLevel": 40
+                }
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_master_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_MASTER_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
+        "leagueType": "PREMIER"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_MASTER_NO_LEGENDARY": {
+        "title": "master_no_legendary",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 6000
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA",
+            "ARTICUNO",
+            "ZAPDOS",
+            "MOLTRES",
+            "MEWTWO",
+            "MEW",
+            "RAIKOU",
+            "ENTEI",
+            "SUICUNE",
+            "LUGIA",
+            "HO_OH",
+            "CELEBI",
+            "REGIROCK",
+            "REGICE",
+            "REGISTEEL",
+            "LATIAS",
+            "LATIOS",
+            "KYOGRE",
+            "GROUDON",
+            "RAYQUAZA",
+            "JIRACHI",
+            "DEOXYS",
+            "UXIE",
+            "MESPRIT",
+            "AZELF",
+            "DIALGA",
+            "PALKIA",
+            "HEATRAN",
+            "REGIGIGAS",
+            "GIRATINA",
+            "CRESSELIA",
+            "PHIONE",
+            "MANAPHY",
+            "DARKRAI",
+            "SHAYMIN",
+            "ARCEUS",
+            "VICTINI",
+            "COBALION",
+            "TERRAKION",
+            "VIRIZION",
+            "TORNADUS",
+            "THUNDURUS",
+            "RESHIRAM",
+            "ZEKROM",
+            "LANDORUS",
+            "KYUREM",
+            "KELDEO",
+            "MELOETTA",
+            "GENESECT",
+            "MELTAN",
+            "MELMETAL"
+        ],
+        "badgeType": "BADGE_MASTER_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_MASTER",
+        "leagueType": "PREMIER"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_ULTRA": {
+        "title": "combat_ultra_league",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 2500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/pogo_ultra_league.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA"
+        ],
+        "badgeType": "BADGE_ULTRA_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
+        "leagueType": "STANDARD"
+    },
+    "COMBAT_LEAGUE_VS_SEEKER_ULTRA_NO_LEGENDARY": {
+        "title": "master_no_legendary",
+        "enabled": true,
+        "unlockCondition": [
+            {
+                "type": "WITH_UNIQUE_POKEMON",
+                "minPokemonCount": 3
+            }
+        ],
+        "pokemonCondition": [
+            {
+                "type": "WITH_POKEMON_CP_LIMIT",
+                "withPokemonCpLimit": {
+                    "maxCp": 2500
+                }
+            },
+            {
+                "type": "WITH_UNIQUE_POKEMON"
+            }
+        ],
+        "iconUrl": "https://storage.googleapis.com/prod-public-images/premierball_sprite.png",
+        "pokemonCount": 3,
+        "bannedPokemon": [
+            "DITTO",
+            "SHEDINJA",
+            "ARTICUNO",
+            "ZAPDOS",
+            "MOLTRES",
+            "MEWTWO",
+            "MEW",
+            "RAIKOU",
+            "ENTEI",
+            "SUICUNE",
+            "LUGIA",
+            "HO_OH",
+            "CELEBI",
+            "REGIROCK",
+            "REGICE",
+            "REGISTEEL",
+            "LATIAS",
+            "LATIOS",
+            "KYOGRE",
+            "GROUDON",
+            "RAYQUAZA",
+            "JIRACHI",
+            "DEOXYS",
+            "UXIE",
+            "MESPRIT",
+            "AZELF",
+            "DIALGA",
+            "PALKIA",
+            "HEATRAN",
+            "REGIGIGAS",
+            "GIRATINA",
+            "CRESSELIA",
+            "PHIONE",
+            "MANAPHY",
+            "DARKRAI",
+            "SHAYMIN",
+            "ARCEUS",
+            "VICTINI",
+            "COBALION",
+            "TERRAKION",
+            "VIRIZION",
+            "TORNADUS",
+            "THUNDURUS",
+            "RESHIRAM",
+            "ZEKROM",
+            "LANDORUS",
+            "KYUREM",
+            "KELDEO",
+            "MELOETTA",
+            "GENESECT",
+            "MELTAN",
+            "MELMETAL"
+        ],
+        "badgeType": "BADGE_ULTRA_LEAGUE",
+        "battlePartyCombatLeagueTemplateId": "COMBAT_LEAGUE_DEFAULT_ULTRA",
+        "leagueType": "PREMIER"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "allowedVsSeekerLeagueTemplateId": [
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT",
+        "COMBAT_LEAGUE_VS_SEEKER_ULTRA",
+        "COMBAT_LEAGUE_VS_SEEKER_ULTRA_NO_LEGENDARY",
+        "COMBAT_LEAGUE_VS_SEEKER_MASTER"
+    ]
+}

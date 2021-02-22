@@ -1,0 +1,6 @@
+{
+    "guiSearchEnabled": true,
+    "maxNumberRecentSearches": 4,
+    "maxNumberFavoriteSearches": 12,
+    "maxQueryLength": 1024
+}

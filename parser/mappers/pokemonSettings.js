@@ -143,10 +143,14 @@ function pokemonSetting(key, pokemonSettings) {
 	} = raw;
 
 	const mapped = {};
+	const pokedexNumber = getPokedexNumber(templateId);
 
-	mapped.pokedexNumber = getPokedexNumber(templateId);
+	mapped.pokedexNumber = pokedexNumber;
 	mapped.name = pokemonId;
-	mapped.form = form ? form : `${pokemonId}_DEFAULT`;
+	//	Form is the most unique identifier; we will index on this.
+	//	There seem to be two versions of all pokemon - one has no form, one has `XXX_DEFAULT`
+	//	If we map the form to the pokedex number, we can create a map later off this for lookups
+	mapped.form = form ? form : pokedexNumber;
 	mapped.rarity = RARITY_MAP[rarity];
 	mapped.animationTime = animationTime;
 	mapped.encounter = encounter;
@@ -163,7 +167,7 @@ function pokemonSetting(key, pokemonSettings) {
 	mapped.mega = tempEvoOverrides;
 
 	mapped.meta = {
-		canMultiTransfer: isTransferable,
+		canTransfer: isTransferable,
 		canDefendGyms: isDeployable,
 		canTransferToPokemonHome: disableTransferToPokemonHome,
 		canMegaEvolve: tempEvoOverrides ? true : false,
@@ -279,8 +283,16 @@ function pokemonSettings(key, dataArray) {
 		return pokemonSetting(key, item);
 	});
 
+	const keyedItems = mappedItems.reduce((keyed, mapped) => {
+		const { name, form } = mapped;
+		// grouped[name] = grouped.hasOwnProperty(name) ? grouped[name] : {};
+		// grouped[name] = { ...grouped[name], ...{ [form]: mapped } };
+		keyed[form] = mapped;
 
-	return mappedItems;
+		return keyed;
+	}, {});
+
+	return keyedItems;
 }
 
 module.exports = pokemonSettings;

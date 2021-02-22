@@ -1,0 +1,146 @@
+{
+    "BUG": {
+        "id": "BUG",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "DARK": {
+        "id": "DARK",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "DRAGON": {
+        "id": "DRAGON",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "ELECTRIC": {
+        "id": "ELECTRIC",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "FAIRY": {
+        "id": "FAIRY",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "FIGHTING": {
+        "id": "FIGHTING",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "FIRE": {
+        "id": "FIRE",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "FLYING": {
+        "id": "FLYING",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "GHOST": {
+        "id": "GHOST",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "GRASS": {
+        "id": "GRASS",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "GROUND": {
+        "id": "GROUND",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "ICE": {
+        "id": "ICE",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "NORMAL": {
+        "id": "NORMAL",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.6,
+            "excellent": 0.95
+        }
+    },
+    "POISON": {
+        "id": "POISON",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "PSYCHIC": {
+        "id": "PSYCHIC",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "ROCK": {
+        "id": "ROCK",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "STEEL": {
+        "id": "STEEL",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    },
+    "WATER": {
+        "id": "WATER",
+        "catchThreshold": {
+            "nice": 0.3,
+            "great": 0.7,
+            "excellent": 0.95
+        }
+    }
+}

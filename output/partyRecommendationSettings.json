@@ -1,6 +1,0 @@
-{
-    "mode": "PARTY_RECOMMENDATION_MODE_2",
-    "variance": 0.1,
-    "thirdMoveWeight": 0.1,
-    "megaEvoCombatRatingScale": 1.2
-}

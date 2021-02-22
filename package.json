@@ -1,19 +1,14 @@
 {
-	"name": "elm",
+	"name": "game-master",
 	"version": "0.0.0",
-	"main": "$npm_package_config_src",
+	"main": "./dist/index.js",
 	"private": true,
-	"description": "Parse game master",
+	"description": "Parsed game master",
 	"keywords": [
-		"chatbot",
-		"chat",
-		"messenger",
 		"pokemon",
 		"pkgo",
 		"pokedex",
-		"professor",
-		"discord",
-		"facebook"
+		"game master"
 	],
 	"author": "a.j.studnicky@gmail.com",
 	"contributors": [
@@ -25,31 +20,22 @@
 	],
 	"license": "UNLICENSED",
 	"config": {
+		"src": "./dist/index.js",
 		"sonar_token": "",
 		"sonar_url": "http://localhost:9000",
 		"sonar_source": "./src/"
 	},
 	"scripts": {
-		"start": "node ./parser/index.js",
-		"dev": "node-dev ./parser/index.js",
-		"debug": "node --inspect-brk=1337  ./parser/index.js",
-		"watch": "node-dev --inspect=1337  ./parser/index.js"
+		"build": "node ./parser/index.js",
+		"watch": "node-dev ./parser/index.js",
+		"debug": "node-dev --respawn --inspect-brk=1337 ./parser/index.js"
 	},
-	"dependencies": {
-		"cleverbot": "^1.0.1",
-		"discord.js": "^12",
-		"dotenv": "^8",
-		"node-fetch": "^2",
-		"uuid": "^8.3.2"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"eslint": "^7",
 		"eslint-plugin-require-path-exists": "^1.1.9",
 		"eslint-plugin-requirejs": "^4.0.1",
 		"node-dev": "^6.2.0"
 	},
-	"//": {
-		"discord.js": "https://discord.js.org/#/docs/main/stable/general/welcome",
-		"inviteBot": "https://discordapp.com/oauth2/authorize?client_id=366916283410808834&scope=bot&permissions=8"
-	}
+	"//": {}
 }

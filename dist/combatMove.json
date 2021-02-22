@@ -1,0 +1,3099 @@
+{
+    "WRAP": {
+        "id": "WRAP",
+        "name": "Wrap",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "wrap"
+    },
+    "HYPER_BEAM": {
+        "id": "HYPER_BEAM",
+        "name": "Hyper Beam",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 150,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hyper_beam"
+    },
+    "DARK_PULSE": {
+        "id": "DARK_PULSE",
+        "name": "Dark Pulse",
+        "moveType": "DARK",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dark_pulse"
+    },
+    "SLUDGE": {
+        "id": "SLUDGE",
+        "name": "Sludge",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "sludge"
+    },
+    "VICE_GRIP": {
+        "id": "VICE_GRIP",
+        "name": "Vice Grip",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "vice_grip"
+    },
+    "FLAME_WHEEL": {
+        "id": "FLAME_WHEEL",
+        "name": "Flame Wheel",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "flame_wheel"
+    },
+    "MEGAHORN": {
+        "id": "MEGAHORN",
+        "name": "Megahorn",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "megahorn"
+    },
+    "FLAMETHROWER": {
+        "id": "FLAMETHROWER",
+        "name": "Flamethrower",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "flamethrower"
+    },
+    "DIG": {
+        "id": "DIG",
+        "name": "Dig",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dig"
+    },
+    "CROSS_CHOP": {
+        "id": "CROSS_CHOP",
+        "name": "Cross Chop",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "cross_chop"
+    },
+    "PSYBEAM": {
+        "id": "PSYBEAM",
+        "name": "Psybeam",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "psybeam"
+    },
+    "EARTHQUAKE": {
+        "id": "EARTHQUAKE",
+        "name": "Earthquake",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -65,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "earthquake"
+    },
+    "STONE_EDGE": {
+        "id": "STONE_EDGE",
+        "name": "Stone Edge",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "stone_edge"
+    },
+    "ICE_PUNCH": {
+        "id": "ICE_PUNCH",
+        "name": "Ice Punch",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "ice_punch"
+    },
+    "HEART_STAMP": {
+        "id": "HEART_STAMP",
+        "name": "Heart Stamp",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "heart_stamp"
+    },
+    "DISCHARGE": {
+        "id": "DISCHARGE",
+        "name": "Discharge",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 65,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "discharge"
+    },
+    "FLASH_CANNON": {
+        "id": "FLASH_CANNON",
+        "name": "Flash Cannon",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -70,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "flash_cannon"
+    },
+    "DRILL_PECK": {
+        "id": "DRILL_PECK",
+        "name": "Drill Peck",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 65,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "drill_peck"
+    },
+    "ICE_BEAM": {
+        "id": "ICE_BEAM",
+        "name": "Ice Beam",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "ice_beam"
+    },
+    "BLIZZARD": {
+        "id": "BLIZZARD",
+        "name": "Blizzard",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 140,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "blizzard"
+    },
+    "HEAT_WAVE": {
+        "id": "HEAT_WAVE",
+        "name": "Heat Wave",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 95,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "heat_wave"
+    },
+    "AERIAL_ACE": {
+        "id": "AERIAL_ACE",
+        "name": "Aerial Ace",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "aerial_ace"
+    },
+    "DRILL_RUN": {
+        "id": "DRILL_RUN",
+        "name": "Drill Run",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "drill_run"
+    },
+    "PETAL_BLIZZARD": {
+        "id": "PETAL_BLIZZARD",
+        "name": "Petal Blizzard",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -65,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "petal_blizzard"
+    },
+    "MEGA_DRAIN": {
+        "id": "MEGA_DRAIN",
+        "name": "Mega Drain",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 25,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "mega_drain"
+    },
+    "BUG_BUZZ": {
+        "id": "BUG_BUZZ",
+        "name": "Bug Buzz",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.3
+            }
+        ],
+        "vfxName": "bug_buzz"
+    },
+    "POISON_FANG": {
+        "id": "POISON_FANG",
+        "name": "Poison Fang",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "poison_fang"
+    },
+    "NIGHT_SLASH": {
+        "id": "NIGHT_SLASH",
+        "name": "Night Slash",
+        "moveType": "DARK",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 2,
+                "chance": 0.125
+            }
+        ],
+        "vfxName": "night_slash"
+    },
+    "BUBBLE_BEAM": {
+        "id": "BUBBLE_BEAM",
+        "name": "Bubble Beam",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 25,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "bubble_beam"
+    },
+    "SUBMISSION": {
+        "id": "SUBMISSION",
+        "name": "Submission",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "submission"
+    },
+    "LOW_SWEEP": {
+        "id": "LOW_SWEEP",
+        "name": "Low Sweep",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "low_sweep"
+    },
+    "AQUA_JET": {
+        "id": "AQUA_JET",
+        "name": "Aqua Jet",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "aqua_jet"
+    },
+    "AQUA_TAIL": {
+        "id": "AQUA_TAIL",
+        "name": "Aqua Tail",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "aqua_tail"
+    },
+    "SEED_BOMB": {
+        "id": "SEED_BOMB",
+        "name": "Seed Bomb",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "seed_bomb"
+    },
+    "PSYSHOCK": {
+        "id": "PSYSHOCK",
+        "name": "Psyshock",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "psyshock"
+    },
+    "ANCIENT_POWER": {
+        "id": "ANCIENT_POWER",
+        "name": "Ancient Power",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 2,
+                "chance": 0.1
+            },
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": 2,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "ancient_power"
+    },
+    "ROCK_TOMB": {
+        "id": "ROCK_TOMB",
+        "name": "Rock Tomb",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rock_tomb"
+    },
+    "ROCK_SLIDE": {
+        "id": "ROCK_SLIDE",
+        "name": "Rock Slide",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 75,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rock_slide"
+    },
+    "POWER_GEM": {
+        "id": "POWER_GEM",
+        "name": "Power Gem",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "power_gem"
+    },
+    "SHADOW_SNEAK": {
+        "id": "SHADOW_SNEAK",
+        "name": "Shadow Sneak",
+        "moveType": "GHOST",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "shadow_sneak"
+    },
+    "SHADOW_PUNCH": {
+        "id": "SHADOW_PUNCH",
+        "name": "Shadow Punch",
+        "moveType": "GHOST",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "shadow_punch"
+    },
+    "OMINOUS_WIND": {
+        "id": "OMINOUS_WIND",
+        "name": "Ominous Wind",
+        "moveType": "GHOST",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 2,
+                "chance": 0.1
+            },
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": 2,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "ominous_wind"
+    },
+    "SHADOW_BALL": {
+        "id": "SHADOW_BALL",
+        "name": "Shadow Ball",
+        "moveType": "GHOST",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "shadow_ball"
+    },
+    "MAGNET_BOMB": {
+        "id": "MAGNET_BOMB",
+        "name": "Magnet Bomb",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "magnet_bomb"
+    },
+    "IRON_HEAD": {
+        "id": "IRON_HEAD",
+        "name": "Iron Head",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "iron_head"
+    },
+    "PARABOLIC_CHARGE": {
+        "id": "PARABOLIC_CHARGE",
+        "name": "Parabolic Charge",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 25,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "parabolic_charge"
+    },
+    "THUNDER_PUNCH": {
+        "id": "THUNDER_PUNCH",
+        "name": "Thunder Punch",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "thunder_punch"
+    },
+    "THUNDER": {
+        "id": "THUNDER",
+        "name": "Thunder",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "thunder"
+    },
+    "THUNDERBOLT": {
+        "id": "THUNDERBOLT",
+        "name": "Thunderbolt",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "thunderbolt"
+    },
+    "TWISTER": {
+        "id": "TWISTER",
+        "name": "Twister",
+        "moveType": "DRAGON",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "twister"
+    },
+    "DRAGON_PULSE": {
+        "id": "DRAGON_PULSE",
+        "name": "Dragon Pulse",
+        "moveType": "DRAGON",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dragon_pulse"
+    },
+    "DRAGON_CLAW": {
+        "id": "DRAGON_CLAW",
+        "name": "Dragon Claw",
+        "moveType": "DRAGON",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dragon_claw"
+    },
+    "DISARMING_VOICE": {
+        "id": "DISARMING_VOICE",
+        "name": "Disarming Voice",
+        "moveType": "FAIRY",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "disarming_voice"
+    },
+    "DRAINING_KISS": {
+        "id": "DRAINING_KISS",
+        "name": "Draining Kiss",
+        "moveType": "FAIRY",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "draining_kiss"
+    },
+    "DAZZLING_GLEAM": {
+        "id": "DAZZLING_GLEAM",
+        "name": "Dazzling Gleam",
+        "moveType": "FAIRY",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -70,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dazzling_gleam"
+    },
+    "MOONBLAST": {
+        "id": "MOONBLAST",
+        "name": "Moonblast",
+        "moveType": "FAIRY",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "moonblast"
+    },
+    "PLAY_ROUGH": {
+        "id": "PLAY_ROUGH",
+        "name": "Play Rough",
+        "moveType": "FAIRY",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "play_rough"
+    },
+    "CROSS_POISON": {
+        "id": "CROSS_POISON",
+        "name": "Cross Poison",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "cross_poison"
+    },
+    "SLUDGE_BOMB": {
+        "id": "SLUDGE_BOMB",
+        "name": "Sludge Bomb",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "sludge_bomb"
+    },
+    "SLUDGE_WAVE": {
+        "id": "SLUDGE_WAVE",
+        "name": "Sludge Wave",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -65,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "sludge_wave"
+    },
+    "GUNK_SHOT": {
+        "id": "GUNK_SHOT",
+        "name": "Gunk Shot",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "gunk_shot"
+    },
+    "BONE_CLUB": {
+        "id": "BONE_CLUB",
+        "name": "Bone Club",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bone_club"
+    },
+    "BULLDOZE": {
+        "id": "BULLDOZE",
+        "name": "Bulldoze",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bulldoze"
+    },
+    "MUD_BOMB": {
+        "id": "MUD_BOMB",
+        "name": "Mud Bomb",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "mud_bomb"
+    },
+    "SIGNAL_BEAM": {
+        "id": "SIGNAL_BEAM",
+        "name": "Signal Beam",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 75,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 0.2
+            },
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.2
+            }
+        ],
+        "vfxName": "signal_beam"
+    },
+    "X_SCISSOR": {
+        "id": "X_SCISSOR",
+        "name": "X Scissor",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "x_scissor"
+    },
+    "FLAME_CHARGE": {
+        "id": "FLAME_CHARGE",
+        "name": "Flame Charge",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 65,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "flame_charge"
+    },
+    "FLAME_BURST": {
+        "id": "FLAME_BURST",
+        "name": "Flame Burst",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "flame_burst"
+    },
+    "FIRE_BLAST": {
+        "id": "FIRE_BLAST",
+        "name": "Fire Blast",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 140,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "fire_blast"
+    },
+    "BRINE": {
+        "id": "BRINE",
+        "name": "Brine",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "brine"
+    },
+    "WATER_PULSE": {
+        "id": "WATER_PULSE",
+        "name": "Water Pulse",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "water_pulse"
+    },
+    "SCALD": {
+        "id": "SCALD",
+        "name": "Scald",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "scald"
+    },
+    "HYDRO_PUMP": {
+        "id": "HYDRO_PUMP",
+        "name": "Hydro Pump",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hydro_pump"
+    },
+    "PSYCHIC": {
+        "id": "PSYCHIC",
+        "name": "Psychic",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "psychic"
+    },
+    "PSYSTRIKE": {
+        "id": "PSYSTRIKE",
+        "name": "Psystrike",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "psystrike"
+    },
+    "ICY_WIND": {
+        "id": "ICY_WIND",
+        "name": "Icy Wind",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "icy_wind"
+    },
+    "GIGA_DRAIN": {
+        "id": "GIGA_DRAIN",
+        "name": "Giga Drain",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "giga_drain"
+    },
+    "FIRE_PUNCH": {
+        "id": "FIRE_PUNCH",
+        "name": "Fire Punch",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "fire_punch"
+    },
+    "SOLAR_BEAM": {
+        "id": "SOLAR_BEAM",
+        "name": "Solar Beam",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 150,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "solar_beam"
+    },
+    "LEAF_BLADE": {
+        "id": "LEAF_BLADE",
+        "name": "Leaf Blade",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "leaf_blade"
+    },
+    "POWER_WHIP": {
+        "id": "POWER_WHIP",
+        "name": "Power Whip",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "power_whip"
+    },
+    "AIR_CUTTER": {
+        "id": "AIR_CUTTER",
+        "name": "Air Cutter",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "air_cutter"
+    },
+    "HURRICANE": {
+        "id": "HURRICANE",
+        "name": "Hurricane",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -65,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hurricane"
+    },
+    "BRICK_BREAK": {
+        "id": "BRICK_BREAK",
+        "name": "Brick Break",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "brick_break"
+    },
+    "SWIFT": {
+        "id": "SWIFT",
+        "name": "Swift",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "swift"
+    },
+    "HORN_ATTACK": {
+        "id": "HORN_ATTACK",
+        "name": "Horn Attack",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 40,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "horn_attack"
+    },
+    "STOMP": {
+        "id": "STOMP",
+        "name": "Stomp",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "stomp"
+    },
+    "HYPER_FANG": {
+        "id": "HYPER_FANG",
+        "name": "Hyper Fang",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hyper_fang"
+    },
+    "BODY_SLAM": {
+        "id": "BODY_SLAM",
+        "name": "Body Slam",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "body_slam"
+    },
+    "REST": {
+        "id": "REST",
+        "name": "Rest",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rest"
+    },
+    "STRUGGLE": {
+        "id": "STRUGGLE",
+        "name": "Struggle",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 35,
+        "energyDelta": -100,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "struggle"
+    },
+    "SCALD_BLASTOISE": {
+        "id": "SCALD_BLASTOISE",
+        "name": "Scald Blastoise",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "scald_blastoise"
+    },
+    "HYDRO_PUMP_BLASTOISE": {
+        "id": "HYDRO_PUMP_BLASTOISE",
+        "name": "Hydro Pump Blastoise",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hydro_pump_blastoise"
+    },
+    "WRAP_GREEN": {
+        "id": "WRAP_GREEN",
+        "name": "Wrap Green",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 25,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "wrap_green"
+    },
+    "WRAP_PINK": {
+        "id": "WRAP_PINK",
+        "name": "Wrap Pink",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 25,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "wrap_pink"
+    },
+    "FURY_CUTTER_FAST": {
+        "id": "FURY_CUTTER_FAST",
+        "name": "Fury Cutter",
+        "moveType": "BUG",
+        "type": "FAST",
+        "power": 2,
+        "energyDelta": 4,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "fury_cutter_fast"
+    },
+    "BUG_BITE_FAST": {
+        "id": "BUG_BITE_FAST",
+        "name": "Bug Bite",
+        "moveType": "BUG",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 3,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bug_bite_fast"
+    },
+    "BITE_FAST": {
+        "id": "BITE_FAST",
+        "name": "Bite",
+        "moveType": "DARK",
+        "type": "FAST",
+        "power": 4,
+        "energyDelta": 2,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bite_fast"
+    },
+    "SUCKER_PUNCH_FAST": {
+        "id": "SUCKER_PUNCH_FAST",
+        "name": "Sucker Punch",
+        "moveType": "DARK",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 7,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "sucker_punch_fast"
+    },
+    "DRAGON_BREATH_FAST": {
+        "id": "DRAGON_BREATH_FAST",
+        "name": "Dragon Breath",
+        "moveType": "DRAGON",
+        "type": "FAST",
+        "power": 4,
+        "energyDelta": 3,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dragon_breath_fast"
+    },
+    "THUNDER_SHOCK_FAST": {
+        "id": "THUNDER_SHOCK_FAST",
+        "name": "Thunder Shock",
+        "moveType": "ELECTRIC",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 9,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "thunder_shock_fast"
+    },
+    "SPARK_FAST": {
+        "id": "SPARK_FAST",
+        "name": "Spark",
+        "moveType": "ELECTRIC",
+        "type": "FAST",
+        "power": 4,
+        "energyDelta": 8,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "spark_fast"
+    },
+    "LOW_KICK_FAST": {
+        "id": "LOW_KICK_FAST",
+        "name": "Low Kick",
+        "moveType": "FIGHTING",
+        "type": "FAST",
+        "power": 4,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "low_kick_fast"
+    },
+    "KARATE_CHOP_FAST": {
+        "id": "KARATE_CHOP_FAST",
+        "name": "Karate Chop",
+        "moveType": "FIGHTING",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 8,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "karate_chop_fast"
+    },
+    "EMBER_FAST": {
+        "id": "EMBER_FAST",
+        "name": "Ember",
+        "moveType": "FIRE",
+        "type": "FAST",
+        "power": 7,
+        "energyDelta": 6,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "ember_fast"
+    },
+    "WING_ATTACK_FAST": {
+        "id": "WING_ATTACK_FAST",
+        "name": "Wing Attack",
+        "moveType": "FLYING",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 7,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "wing_attack_fast"
+    },
+    "PECK_FAST": {
+        "id": "PECK_FAST",
+        "name": "Peck",
+        "moveType": "FLYING",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "peck_fast"
+    },
+    "LICK_FAST": {
+        "id": "LICK_FAST",
+        "name": "Lick",
+        "moveType": "GHOST",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 3,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "lick_fast"
+    },
+    "SHADOW_CLAW_FAST": {
+        "id": "SHADOW_CLAW_FAST",
+        "name": "Shadow Claw",
+        "moveType": "GHOST",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 8,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "shadow_claw_fast"
+    },
+    "VINE_WHIP_FAST": {
+        "id": "VINE_WHIP_FAST",
+        "name": "Vine Whip",
+        "moveType": "GRASS",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 8,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "vine_whip_fast"
+    },
+    "RAZOR_LEAF_FAST": {
+        "id": "RAZOR_LEAF_FAST",
+        "name": "Razor Leaf",
+        "moveType": "GRASS",
+        "type": "FAST",
+        "power": 10,
+        "energyDelta": 4,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "razor_leaf_fast"
+    },
+    "MUD_SHOT_FAST": {
+        "id": "MUD_SHOT_FAST",
+        "name": "Mud Shot",
+        "moveType": "GROUND",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 9,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "mud_shot_fast"
+    },
+    "ICE_SHARD_FAST": {
+        "id": "ICE_SHARD_FAST",
+        "name": "Ice Shard",
+        "moveType": "ICE",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 10,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "ice_shard_fast"
+    },
+    "FROST_BREATH_FAST": {
+        "id": "FROST_BREATH_FAST",
+        "name": "Frost Breath",
+        "moveType": "ICE",
+        "type": "FAST",
+        "power": 7,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "frost_breath_fast"
+    },
+    "QUICK_ATTACK_FAST": {
+        "id": "QUICK_ATTACK_FAST",
+        "name": "Quick Attack",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 7,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "quick_attack_fast"
+    },
+    "SCRATCH_FAST": {
+        "id": "SCRATCH_FAST",
+        "name": "Scratch",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 4,
+        "energyDelta": 2,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "scratch_fast"
+    },
+    "TACKLE_FAST": {
+        "id": "TACKLE_FAST",
+        "name": "Tackle",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 2,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "tackle_fast"
+    },
+    "POUND_FAST": {
+        "id": "POUND_FAST",
+        "name": "Pound",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 4,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "pound_fast"
+    },
+    "CUT_FAST": {
+        "id": "CUT_FAST",
+        "name": "Cut",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 2,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "cut_fast"
+    },
+    "POISON_JAB_FAST": {
+        "id": "POISON_JAB_FAST",
+        "name": "Poison Jab",
+        "moveType": "POISON",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 7,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "poison_jab_fast"
+    },
+    "ACID_FAST": {
+        "id": "ACID_FAST",
+        "name": "Acid",
+        "moveType": "POISON",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "acid_fast"
+    },
+    "PSYCHO_CUT_FAST": {
+        "id": "PSYCHO_CUT_FAST",
+        "name": "Psycho Cut",
+        "moveType": "PSYCHIC",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 9,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "psycho_cut_fast"
+    },
+    "ROCK_THROW_FAST": {
+        "id": "ROCK_THROW_FAST",
+        "name": "Rock Throw",
+        "moveType": "ROCK",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rock_throw_fast"
+    },
+    "METAL_CLAW_FAST": {
+        "id": "METAL_CLAW_FAST",
+        "name": "Metal Claw",
+        "moveType": "STEEL",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 6,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "metal_claw_fast"
+    },
+    "BULLET_PUNCH_FAST": {
+        "id": "BULLET_PUNCH_FAST",
+        "name": "Bullet Punch",
+        "moveType": "STEEL",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 7,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bullet_punch_fast"
+    },
+    "WATER_GUN_FAST": {
+        "id": "WATER_GUN_FAST",
+        "name": "Water Gun",
+        "moveType": "WATER",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 3,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "water_gun_fast"
+    },
+    "SPLASH_FAST": {
+        "id": "SPLASH_FAST",
+        "name": "Splash",
+        "moveType": "WATER",
+        "type": "FAST",
+        "energyDelta": 12,
+        "turns": 3,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "splash_fast"
+    },
+    "WATER_GUN_FAST_BLASTOISE": {
+        "id": "WATER_GUN_FAST_BLASTOISE",
+        "name": "Water Gun",
+        "moveType": "WATER",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 4,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "water_gun_fast_blastoise"
+    },
+    "MUD_SLAP_FAST": {
+        "id": "MUD_SLAP_FAST",
+        "name": "Mud Slap",
+        "moveType": "GROUND",
+        "type": "FAST",
+        "power": 11,
+        "energyDelta": 8,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "mud_slap_fast"
+    },
+    "ZEN_HEADBUTT_FAST": {
+        "id": "ZEN_HEADBUTT_FAST",
+        "name": "Zen Headbutt",
+        "moveType": "PSYCHIC",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 6,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "zen_headbutt_fast"
+    },
+    "CONFUSION_FAST": {
+        "id": "CONFUSION_FAST",
+        "name": "Confusion",
+        "moveType": "PSYCHIC",
+        "type": "FAST",
+        "power": 16,
+        "energyDelta": 12,
+        "turns": 3,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "confusion_fast"
+    },
+    "POISON_STING_FAST": {
+        "id": "POISON_STING_FAST",
+        "name": "Poison Sting",
+        "moveType": "POISON",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 8,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "poison_sting_fast"
+    },
+    "BUBBLE_FAST": {
+        "id": "BUBBLE_FAST",
+        "name": "Bubble",
+        "moveType": "WATER",
+        "type": "FAST",
+        "power": 7,
+        "energyDelta": 11,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bubble_fast"
+    },
+    "FEINT_ATTACK_FAST": {
+        "id": "FEINT_ATTACK_FAST",
+        "name": "Feint Attack",
+        "moveType": "DARK",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 6,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "feint_attack_fast"
+    },
+    "STEEL_WING_FAST": {
+        "id": "STEEL_WING_FAST",
+        "name": "Steel Wing",
+        "moveType": "STEEL",
+        "type": "FAST",
+        "power": 7,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "steel_wing_fast"
+    },
+    "FIRE_FANG_FAST": {
+        "id": "FIRE_FANG_FAST",
+        "name": "Fire Fang",
+        "moveType": "FIRE",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "fire_fang_fast"
+    },
+    "ROCK_SMASH_FAST": {
+        "id": "ROCK_SMASH_FAST",
+        "name": "Rock Smash",
+        "moveType": "FIGHTING",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 7,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rock_smash_fast"
+    },
+    "TRANSFORM_FAST": {
+        "id": "TRANSFORM_FAST",
+        "name": "Transform",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "transform_fast"
+    },
+    "COUNTER_FAST": {
+        "id": "COUNTER_FAST",
+        "name": "Counter",
+        "moveType": "FIGHTING",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 7,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "counter_fast"
+    },
+    "POWDER_SNOW_FAST": {
+        "id": "POWDER_SNOW_FAST",
+        "name": "Powder Snow",
+        "moveType": "ICE",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 8,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "powder_snow_fast"
+    },
+    "CLOSE_COMBAT": {
+        "id": "CLOSE_COMBAT",
+        "name": "Close Combat",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": -2,
+                "chance": 1
+            }
+        ],
+        "vfxName": "close_combat"
+    },
+    "DYNAMIC_PUNCH": {
+        "id": "DYNAMIC_PUNCH",
+        "name": "Dynamic Punch",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dynamic_punch"
+    },
+    "FOCUS_BLAST": {
+        "id": "FOCUS_BLAST",
+        "name": "Focus Blast",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 140,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "focus_blast"
+    },
+    "AURORA_BEAM": {
+        "id": "AURORA_BEAM",
+        "name": "Aurora Beam",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "aurora_beam"
+    },
+    "CHARGE_BEAM_FAST": {
+        "id": "CHARGE_BEAM_FAST",
+        "name": "Charge Beam",
+        "moveType": "ELECTRIC",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 11,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "charge_beam_fast"
+    },
+    "VOLT_SWITCH_FAST": {
+        "id": "VOLT_SWITCH_FAST",
+        "name": "Volt Switch",
+        "moveType": "ELECTRIC",
+        "type": "FAST",
+        "power": 12,
+        "energyDelta": 16,
+        "turns": 3,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "volt_switch_fast"
+    },
+    "WILD_CHARGE": {
+        "id": "WILD_CHARGE",
+        "name": "Wild Charge",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": -2,
+                "chance": 1
+            }
+        ],
+        "vfxName": "wild_charge"
+    },
+    "ZAP_CANNON": {
+        "id": "ZAP_CANNON",
+        "name": "Zap Cannon",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 150,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "zap_cannon"
+    },
+    "DRAGON_TAIL_FAST": {
+        "id": "DRAGON_TAIL_FAST",
+        "name": "Dragon Tail",
+        "moveType": "DRAGON",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 10,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "dragon_tail_fast"
+    },
+    "AVALANCHE": {
+        "id": "AVALANCHE",
+        "name": "Avalanche",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "avalanche"
+    },
+    "AIR_SLASH_FAST": {
+        "id": "AIR_SLASH_FAST",
+        "name": "Air Slash",
+        "moveType": "FLYING",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 9,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "air_slash_fast"
+    },
+    "BRAVE_BIRD": {
+        "id": "BRAVE_BIRD",
+        "name": "Brave Bird",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": -3,
+                "chance": 1
+            }
+        ],
+        "vfxName": "brave_bird"
+    },
+    "SKY_ATTACK": {
+        "id": "SKY_ATTACK",
+        "name": "Sky Attack",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 75,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "sky_attack"
+    },
+    "SAND_TOMB": {
+        "id": "SAND_TOMB",
+        "name": "Sand Tomb",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 25,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "sand_tomb"
+    },
+    "ROCK_BLAST": {
+        "id": "ROCK_BLAST",
+        "name": "Rock Blast",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rock_blast"
+    },
+    "INFESTATION_FAST": {
+        "id": "INFESTATION_FAST",
+        "name": "Infestation",
+        "moveType": "BUG",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 12,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "infestation_fast"
+    },
+    "STRUGGLE_BUG_FAST": {
+        "id": "STRUGGLE_BUG_FAST",
+        "name": "Struggle Bug",
+        "moveType": "BUG",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 8,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "struggle_bug_fast"
+    },
+    "SILVER_WIND": {
+        "id": "SILVER_WIND",
+        "name": "Silver Wind",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 2,
+                "chance": 0.1
+            },
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": 2,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "silver_wind"
+    },
+    "ASTONISH_FAST": {
+        "id": "ASTONISH_FAST",
+        "name": "Astonish",
+        "moveType": "GHOST",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 9,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "astonish_fast"
+    },
+    "HEX_FAST": {
+        "id": "HEX_FAST",
+        "name": "Hex",
+        "moveType": "GHOST",
+        "type": "FAST",
+        "power": 6,
+        "energyDelta": 12,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hex_fast"
+    },
+    "NIGHT_SHADE": {
+        "id": "NIGHT_SHADE",
+        "name": "Night Shade",
+        "moveType": "GHOST",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "night_shade"
+    },
+    "IRON_TAIL_FAST": {
+        "id": "IRON_TAIL_FAST",
+        "name": "Iron Tail",
+        "moveType": "STEEL",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 6,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "iron_tail_fast"
+    },
+    "GYRO_BALL": {
+        "id": "GYRO_BALL",
+        "name": "Gyro Ball",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "gyro_ball"
+    },
+    "HEAVY_SLAM": {
+        "id": "HEAVY_SLAM",
+        "name": "Heavy Slam",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "heavy_slam"
+    },
+    "FIRE_SPIN_FAST": {
+        "id": "FIRE_SPIN_FAST",
+        "name": "Fire Spin",
+        "moveType": "FIRE",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 10,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "fire_spin_fast"
+    },
+    "OVERHEAT": {
+        "id": "OVERHEAT",
+        "name": "Overheat",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": -2,
+                "chance": 1
+            }
+        ],
+        "vfxName": "overheat"
+    },
+    "BULLET_SEED_FAST": {
+        "id": "BULLET_SEED_FAST",
+        "name": "Bullet Seed",
+        "moveType": "GRASS",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 13,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "bullet_seed_fast"
+    },
+    "GRASS_KNOT": {
+        "id": "GRASS_KNOT",
+        "name": "Grass Knot",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "grass_knot"
+    },
+    "ENERGY_BALL": {
+        "id": "ENERGY_BALL",
+        "name": "Energy Ball",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "energy_ball"
+    },
+    "EXTRASENSORY_FAST": {
+        "id": "EXTRASENSORY_FAST",
+        "name": "Extrasensory",
+        "moveType": "PSYCHIC",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 10,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "extrasensory_fast"
+    },
+    "FUTURESIGHT": {
+        "id": "FUTURESIGHT",
+        "name": "Futuresight",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -65,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "futuresight"
+    },
+    "MIRROR_COAT": {
+        "id": "MIRROR_COAT",
+        "name": "Mirror Coat",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "mirror_coat"
+    },
+    "OUTRAGE": {
+        "id": "OUTRAGE",
+        "name": "Outrage",
+        "moveType": "DRAGON",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "outrage"
+    },
+    "SNARL_FAST": {
+        "id": "SNARL_FAST",
+        "name": "Snarl",
+        "moveType": "DARK",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 13,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "snarl_fast"
+    },
+    "CRUNCH": {
+        "id": "CRUNCH",
+        "name": "Crunch",
+        "moveType": "DARK",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "crunch"
+    },
+    "FOUL_PLAY": {
+        "id": "FOUL_PLAY",
+        "name": "Foul Play",
+        "moveType": "DARK",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "foul_play"
+    },
+    "HIDDEN_POWER_FAST": {
+        "id": "HIDDEN_POWER_FAST",
+        "name": "Hidden Power",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 9,
+        "energyDelta": 8,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hidden_power_fast"
+    },
+    "TAKE_DOWN_FAST": {
+        "id": "TAKE_DOWN_FAST",
+        "name": "Take Down",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 5,
+        "energyDelta": 8,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "take_down_fast"
+    },
+    "WATERFALL_FAST": {
+        "id": "WATERFALL_FAST",
+        "name": "Waterfall",
+        "moveType": "WATER",
+        "type": "FAST",
+        "power": 12,
+        "energyDelta": 8,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "waterfall_fast"
+    },
+    "SURF": {
+        "id": "SURF",
+        "name": "Surf",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 65,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "surf"
+    },
+    "DRACO_METEOR": {
+        "id": "DRACO_METEOR",
+        "name": "Draco Meteor",
+        "moveType": "DRAGON",
+        "type": "CHARGE",
+        "power": 150,
+        "energyDelta": -65,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": -2,
+                "chance": 1
+            }
+        ],
+        "vfxName": "draco_meteor"
+    },
+    "DOOM_DESIRE": {
+        "id": "DOOM_DESIRE",
+        "name": "Doom Desire",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 75,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "doom_desire"
+    },
+    "YAWN_FAST": {
+        "id": "YAWN_FAST",
+        "name": "Yawn",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "energyDelta": 12,
+        "turns": 3,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "yawn_fast"
+    },
+    "PSYCHO_BOOST": {
+        "id": "PSYCHO_BOOST",
+        "name": "Psycho Boost",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 70,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": -2,
+                "chance": 1
+            }
+        ],
+        "vfxName": "psycho_boost"
+    },
+    "ORIGIN_PULSE": {
+        "id": "ORIGIN_PULSE",
+        "name": "Origin Pulse",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "origin_pulse"
+    },
+    "PRECIPICE_BLADES": {
+        "id": "PRECIPICE_BLADES",
+        "name": "Precipice Blades",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "precipice_blades"
+    },
+    "PRESENT_FAST": {
+        "id": "PRESENT_FAST",
+        "name": "Present",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 3,
+        "energyDelta": 12,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "present_fast"
+    },
+    "WEATHER_BALL_FIRE": {
+        "id": "WEATHER_BALL_FIRE",
+        "name": "Weather Ball Fire",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "weather_ball_fire"
+    },
+    "WEATHER_BALL_ICE": {
+        "id": "WEATHER_BALL_ICE",
+        "name": "Weather Ball Ice",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "weather_ball_ice"
+    },
+    "WEATHER_BALL_ROCK": {
+        "id": "WEATHER_BALL_ROCK",
+        "name": "Weather Ball Rock",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hidden_power_fast"
+    },
+    "WEATHER_BALL_WATER": {
+        "id": "WEATHER_BALL_WATER",
+        "name": "Weather Ball Water",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "weather_ball_water"
+    },
+    "FRENZY_PLANT": {
+        "id": "FRENZY_PLANT",
+        "name": "Frenzy Plant",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "frenzy_plant"
+    },
+    "SMACK_DOWN_FAST": {
+        "id": "SMACK_DOWN_FAST",
+        "name": "Smack Down",
+        "moveType": "ROCK",
+        "type": "FAST",
+        "power": 12,
+        "energyDelta": 8,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "smack_down_fast"
+    },
+    "BLAST_BURN": {
+        "id": "BLAST_BURN",
+        "name": "Blast Burn",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "blast_burn"
+    },
+    "HYDRO_CANNON": {
+        "id": "HYDRO_CANNON",
+        "name": "Hydro Cannon",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "hydro_cannon"
+    },
+    "LAST_RESORT": {
+        "id": "LAST_RESORT",
+        "name": "Last Resort",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "last_resort"
+    },
+    "METEOR_MASH": {
+        "id": "METEOR_MASH",
+        "name": "Meteor Mash",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "meteor_mash"
+    },
+    "SKULL_BASH": {
+        "id": "SKULL_BASH",
+        "name": "Skull Bash",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": 1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "skull_bash"
+    },
+    "ACID_SPRAY": {
+        "id": "ACID_SPRAY",
+        "name": "Acid Spray",
+        "moveType": "POISON",
+        "type": "CHARGE",
+        "power": 20,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -2,
+                "chance": 1
+            }
+        ],
+        "vfxName": "acid_spray"
+    },
+    "EARTH_POWER": {
+        "id": "EARTH_POWER",
+        "name": "Earth Power",
+        "moveType": "GROUND",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.1
+            }
+        ],
+        "vfxName": "earth_power"
+    },
+    "CRABHAMMER": {
+        "id": "CRABHAMMER",
+        "name": "Crabhammer",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 85,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 2,
+                "chance": 0.125
+            }
+        ],
+        "vfxName": "crabhammer"
+    },
+    "LUNGE": {
+        "id": "LUNGE",
+        "name": "Lunge",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "lunge"
+    },
+    "OCTAZOOKA": {
+        "id": "OCTAZOOKA",
+        "name": "Octazooka",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 50,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -2,
+                "chance": 0.5
+            }
+        ],
+        "vfxName": "octazooka"
+    },
+    "MIRROR_SHOT": {
+        "id": "MIRROR_SHOT",
+        "name": "Mirror Shot",
+        "moveType": "STEEL",
+        "type": "CHARGE",
+        "power": 35,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 0.3
+            }
+        ],
+        "vfxName": "mirror_shot"
+    },
+    "SUPER_POWER": {
+        "id": "SUPER_POWER",
+        "name": "Super Power",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 85,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 1
+            },
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "super_power"
+    },
+    "FELL_STINGER": {
+        "id": "FELL_STINGER",
+        "name": "Fell Stinger",
+        "moveType": "BUG",
+        "type": "CHARGE",
+        "power": 20,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "fell_stinger"
+    },
+    "LEAF_TORNADO": {
+        "id": "LEAF_TORNADO",
+        "name": "Leaf Tornado",
+        "moveType": "GRASS",
+        "type": "CHARGE",
+        "power": 45,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -2,
+                "chance": 0.5
+            }
+        ],
+        "vfxName": "leaf_tornado"
+    },
+    "SHADOW_BONE": {
+        "id": "SHADOW_BONE",
+        "name": "Shadow Bone",
+        "moveType": "GHOST",
+        "type": "CHARGE",
+        "power": 75,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.2
+            }
+        ],
+        "vfxName": "shadow_bone"
+    },
+    "MUDDY_WATER": {
+        "id": "MUDDY_WATER",
+        "name": "Muddy Water",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 35,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 0.3
+            }
+        ],
+        "vfxName": "muddy_water"
+    },
+    "BLAZE_KICK": {
+        "id": "BLAZE_KICK",
+        "name": "Blaze Kick",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 55,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "blaze_kick"
+    },
+    "POWER_UP_PUNCH": {
+        "id": "POWER_UP_PUNCH",
+        "name": "Power Up Punch",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 20,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 1,
+                "chance": 1
+            }
+        ],
+        "vfxName": "power_up_punch"
+    },
+    "CHARM_FAST": {
+        "id": "CHARM_FAST",
+        "name": "Charm",
+        "moveType": "FAIRY",
+        "type": "FAST",
+        "power": 16,
+        "energyDelta": 6,
+        "turns": 2,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "charm_fast"
+    },
+    "GIGA_IMPACT": {
+        "id": "GIGA_IMPACT",
+        "name": "Giga Impact",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 150,
+        "energyDelta": -80,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "giga_impact"
+    },
+    "FRUSTRATION": {
+        "id": "FRUSTRATION",
+        "name": "Frustration",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 10,
+        "energyDelta": -70,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "frustration"
+    },
+    "RETURN": {
+        "id": "RETURN",
+        "name": "Return",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 130,
+        "energyDelta": -70,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "return"
+    },
+    "SYNCHRONOISE": {
+        "id": "SYNCHRONOISE",
+        "name": "Synchronoise",
+        "moveType": "PSYCHIC",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "synchronoise"
+    },
+    "LOCK_ON_FAST": {
+        "id": "LOCK_ON_FAST",
+        "name": "Lock On",
+        "moveType": "NORMAL",
+        "type": "FAST",
+        "power": 1,
+        "energyDelta": 5,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "lock_on_fast"
+    },
+    "THUNDER_FANG_FAST": {
+        "id": "THUNDER_FANG_FAST",
+        "name": "Thunder Fang",
+        "moveType": "ELECTRIC",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "thunder_fang_fast"
+    },
+    "ICE_FANG_FAST": {
+        "id": "ICE_FANG_FAST",
+        "name": "Ice Fang",
+        "moveType": "ICE",
+        "type": "FAST",
+        "power": 8,
+        "energyDelta": 5,
+        "turns": 1,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "ice_fang_fast"
+    },
+    "SACRED_SWORD": {
+        "id": "SACRED_SWORD",
+        "name": "Sacred Sword",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 60,
+        "energyDelta": -35,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "sacred_sword"
+    },
+    "FLYING_PRESS": {
+        "id": "FLYING_PRESS",
+        "name": "Flying Press",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 90,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "flying_press"
+    },
+    "AURA_SPHERE": {
+        "id": "AURA_SPHERE",
+        "name": "Aura Sphere",
+        "moveType": "FIGHTING",
+        "type": "CHARGE",
+        "power": 100,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "aura_sphere"
+    },
+    "PAYBACK": {
+        "id": "PAYBACK",
+        "name": "Payback",
+        "moveType": "DARK",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -60,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "payback"
+    },
+    "ROCK_WRECKER": {
+        "id": "ROCK_WRECKER",
+        "name": "Rock Wrecker",
+        "moveType": "ROCK",
+        "type": "CHARGE",
+        "power": 110,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "rock_wrecker"
+    },
+    "AEROBLAST": {
+        "id": "AEROBLAST",
+        "name": "Aeroblast",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 170,
+        "energyDelta": -75,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Attack",
+                "effect": 2,
+                "chance": 0.125
+            }
+        ],
+        "vfxName": "aeroblast"
+    },
+    "TECHNO_BLAST_NORMAL": {
+        "id": "TECHNO_BLAST_NORMAL",
+        "name": "Techno Blast Normal",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "techno_blast_normal"
+    },
+    "TECHNO_BLAST_BURN": {
+        "id": "TECHNO_BLAST_BURN",
+        "name": "Techno Blast Burn",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "techno_blast_burn"
+    },
+    "TECHNO_BLAST_CHILL": {
+        "id": "TECHNO_BLAST_CHILL",
+        "name": "Techno Blast Chill",
+        "moveType": "ICE",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "techno_blast_chill"
+    },
+    "TECHNO_BLAST_WATER": {
+        "id": "TECHNO_BLAST_WATER",
+        "name": "Techno Blast Water",
+        "moveType": "WATER",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "techno_blast_water"
+    },
+    "TECHNO_BLAST_SHOCK": {
+        "id": "TECHNO_BLAST_SHOCK",
+        "name": "Techno Blast Shock",
+        "moveType": "ELECTRIC",
+        "type": "CHARGE",
+        "power": 120,
+        "energyDelta": -55,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "techno_blast_shock"
+    },
+    "FLY": {
+        "id": "FLY",
+        "name": "Fly",
+        "moveType": "FLYING",
+        "type": "CHARGE",
+        "power": 80,
+        "energyDelta": -45,
+        "turns": 0,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "fly"
+    },
+    "V_CREATE": {
+        "id": "V_CREATE",
+        "name": "V Create",
+        "moveType": "FIRE",
+        "type": "CHARGE",
+        "power": 95,
+        "energyDelta": -40,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "self",
+                "affects": "Defense",
+                "effect": -3,
+                "chance": 1
+            }
+        ],
+        "vfxName": "v_create"
+    },
+    "TRI_ATTACK": {
+        "id": "TRI_ATTACK",
+        "name": "Tri Attack",
+        "moveType": "NORMAL",
+        "type": "CHARGE",
+        "power": 65,
+        "energyDelta": -50,
+        "turns": 0,
+        "hasStatusEffect": true,
+        "statusEffect": [
+            {
+                "target": "opponent",
+                "affects": "Attack",
+                "effect": -1,
+                "chance": 0.5
+            },
+            {
+                "target": "opponent",
+                "affects": "Defense",
+                "effect": -1,
+                "chance": 0.5
+            }
+        ],
+        "vfxName": "tri_attack"
+    },
+    "GUST_FAST": {
+        "id": "GUST_FAST",
+        "name": "Gust",
+        "moveType": "FLYING",
+        "type": "FAST",
+        "power": 16,
+        "energyDelta": 12,
+        "turns": 3,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "gust_fast"
+    },
+    "INCINERATE_FAST": {
+        "id": "INCINERATE_FAST",
+        "name": "Incinerate",
+        "moveType": "FIRE",
+        "type": "FAST",
+        "power": 15,
+        "energyDelta": 20,
+        "turns": 4,
+        "hasStatusEffect": false,
+        "statusEffect": [],
+        "vfxName": "incinerate_fast"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "target": [
+        500,
+        4000,
+        30000
+    ],
+    "battleWinningScorePerDefenderCp": 0.01,
+    "gymDefendingScorePerMinute": 1,
+    "berryFeedingScore": 10,
+    "pokemonDeployScore": 100,
+    "raidBattleWinningScore": 1000,
+    "loseAllBattlesScore": 5
+}

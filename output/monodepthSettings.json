@@ -1,8 +1,0 @@
-{
-    "enableOcclusions": true,
-    "occlusionsDefaultOn": true,
-    "occlusionsToggleVisible": true,
-    "enableGroundSuppression": true,
-    "minGroundSuppressionThresh": 0.3,
-    "suppressionChannelId": 1
-}

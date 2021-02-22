@@ -4,9 +4,9 @@ const rawGameMaster = require('../latest/latest.json');
 const { arrayUnique } = require('../utils');
 const mappers = require('./mappers');
 
-async function writeContents(mappedGameMaster) {
+async function writeContents(index, mappedGameMaster) {
 	for (const [fileName, contents] of Object.entries(mappedGameMaster)) {
-		const filePath = path.resolve(`./output/${fileName}.json`);
+		const filePath = path.resolve(`./dist/${fileName}.json`);
 		try {
 			await fs.writeFile(filePath, JSON.stringify(contents, null, 4));
 		} catch (err) {
@@ -16,9 +16,19 @@ async function writeContents(mappedGameMaster) {
 			throw err;
 		}
 	}
+
+	try {
+		const indexFilePath = path.resolve(`./dist/index.js`);
+		await fs.writeFile(indexFilePath, index);
+	} catch (err) {
+		//	Don't terminate if the page fails to write
+		console.error(`Failed to write`, err);
+		console.info(filePath);
+		throw err;
+	}
+
 	return mappedGameMaster;
 }
-
 function getAllDataKeys(rawGameMaster) {
 	return rawGameMaster.reduce((allKeys, currentItem) => {
 		const { data } = currentItem;
@@ -53,7 +63,6 @@ function sortByDataType(rawGameMaster, allKeys) {
 
 	return sortedGameMaster;
 }
-
 function mapGameMasterData(sortedGameMaster) {
 	const mappedGameMaster = Object.entries(sortedGameMaster).reduce((mapped, [key, dataArray]) => {
 		if (dataArray.length == 1) {
@@ -79,6 +88,21 @@ function mapGameMasterData(sortedGameMaster) {
 	return mappedGameMaster;
 }
 
+function createIndex(mappedGameMaster) {
+	const allKeysOfMappedGameMaster = Object.keys(mappedGameMaster);
+
+	const requireStrings = allKeysOfMappedGameMaster.map((key) => {
+		return `const ${key} = require('./${key}');`;
+	});
+
+	const finalExport = `${requireStrings.join('\n')}\n\nmodule.exports = {\n${allKeysOfMappedGameMaster
+		.map((item) => {
+			return `\t${item}`;
+		})
+		.join(',\n')}\n}`;
+
+	return finalExport;
+}
 async function parseGameMaster() {
 	const allKeys = getAllDataKeys(rawGameMaster);
 
@@ -88,7 +112,9 @@ async function parseGameMaster() {
 
 	const mappedGameMaster = mapGameMasterData(sortedGameMaster);
 
-	await writeContents(mappedGameMaster);
+	const gameMasterIndex = createIndex(mappedGameMaster);
+
+	await writeContents(gameMasterIndex, mappedGameMaster);
 
 	return mappedGameMaster;
 }

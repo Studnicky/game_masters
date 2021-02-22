@@ -1,5 +1,5 @@
-const { arrayExclude } = require('../../utils');
-const pokedexPattern = /V(\d+)_/;
+const { arrayExclude, toCap } = require('../../utils');
+const namePattern = /(.*)_FAST/;
 
 const TYPE_STRING_MAP = {
 	POKEMON_TYPE_NORMAL: 'NORMAL',
@@ -24,6 +24,20 @@ const TYPE_STRING_MAP = {
 
 const mappedKeys = ['uniqueId', 'type', 'power', 'energyDelta', 'vfxName', 'durationTurns', 'buffs'];
 
+function getMoveName(uniqueId) {
+	const match = uniqueId.match(namePattern);
+	const nameString = match ? match[1] : uniqueId;
+	const nameTokens = nameString.toLowerCase().split(/_/g);
+
+	const displayName = nameTokens
+		.map((token) => {
+			return toCap(token);
+		})
+		.join(' ');
+
+	return displayName;
+}
+
 function move(key, combatMove) {
 	const { templateId, data } = combatMove;
 	const raw = data[key];
@@ -40,6 +54,7 @@ function move(key, combatMove) {
 	const mapped = {};
 
 	mapped.id = uniqueId;
+	mapped.name = getMoveName(uniqueId);
 	mapped.moveType = TYPE_STRING_MAP[type];
 	mapped.type = energyDelta > 0 ? 'FAST' : 'CHARGE';
 	mapped.power = power;
@@ -71,8 +86,13 @@ function combatMove(key, dataArray) {
 		return move(key, item);
 	});
 
+	const keyedItems = mappedItems.reduce((keyed, mapped) => {
+		keyed[mapped.id] = mapped;
 
-	return mappedItems;
+		return keyed;
+	}, {});
+
+	return keyedItems;
 }
 
 module.exports = combatMove;

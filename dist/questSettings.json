@@ -1,0 +1,18 @@
+{
+    "QUEST_FIRST_CATCH_OF_THE_DAY": {
+        "questType": "QUEST_FIRST_CATCH_OF_THE_DAY",
+        "dailyQuest": {
+            "bucketsPerDay": 1,
+            "streakLength": 7
+        }
+    },
+    "QUEST_FIRST_POKESTOP_OF_THE_DAY": {
+        "questType": "QUEST_FIRST_POKESTOP_OF_THE_DAY",
+        "dailyQuest": {
+            "bucketsPerDay": 1,
+            "streakLength": 7,
+            "bonusMultiplier": 2,
+            "streakBonusMultiplier": 3
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "RUNERIGUS_EVOLUTION_QUEST": {
+        "questTemplateId": "RUNERIGUS_EVOLUTION_QUEST",
+        "questType": "QUEST_COMPLETE_RAID_BATTLE",
+        "goals": [
+            {
+                "condition": [
+                    {
+                        "type": "WITH_WIN_RAID_STATUS"
+                    }
+                ],
+                "target": 10
+            }
+        ],
+        "context": "EVOLUTION_QUEST",
+        "display": {
+            "description": "quest_win_raid_plural",
+            "title": "quest_win_raid_plural"
+        }
+    },
+    "SIRFETCHD_EVOLUTION_QUEST": {
+        "questTemplateId": "SIRFETCHD_EVOLUTION_QUEST",
+        "questType": "QUEST_LAND_THROW",
+        "goals": [
+            {
+                "condition": [
+                    {
+                        "type": "WITH_THROW_TYPE",
+                        "withThrowType": {
+                            "throwType": "ACTIVITY_CATCH_EXCELLENT_THROW"
+                        }
+                    }
+                ],
+                "target": 10
+            }
+        ],
+        "context": "EVOLUTION_QUEST",
+        "display": {
+            "description": "quest_land_excellent_plural",
+            "title": "quest_land_excellent_plural"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "feedItemWhitelist": [
+        "ITEM_RAZZ_BERRY",
+        "ITEM_NANAB_BERRY",
+        "ITEM_PINAP_BERRY",
+        "ITEM_GOLDEN_RAZZ_BERRY",
+        "ITEM_GOLDEN_PINAP_BERRY",
+        "ITEM_POFFIN"
+    ]
+}

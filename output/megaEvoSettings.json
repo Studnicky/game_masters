@@ -1,8 +1,0 @@
-{
-    "evolutionLengthMs": "28800000",
-    "attackBoostFromMegaDifferentType": 1.1,
-    "attackBoostFromMegaSameType": 1.3,
-    "maxCandyHoardSize": 2000,
-    "enableBuddyWalkingMegaEnergyAward": true,
-    "activeMegaBonusCatchCandy": 1
-}

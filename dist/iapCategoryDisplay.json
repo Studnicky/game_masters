@@ -1,0 +1,53 @@
+{
+    "IAP_CATEGORY_AVATAR": {
+        "category": "IAP_CATEGORY_AVATAR",
+        "sortOrder": 7,
+        "imageUrl": "https://storage.googleapis.com/prod-public-images/Valentines2021.jpg",
+        "description": "avatar_shop_description"
+    },
+    "IAP_CATEGORY_BUNDLE": {
+        "category": "IAP_CATEGORY_BUNDLE",
+        "sortOrder": 3,
+        "bannerEnabled": true,
+        "bannerTitle": "shop_limited_time"
+    },
+    "IAP_CATEGORY_FREE": {
+        "category": "IAP_CATEGORY_FREE",
+        "sortOrder": 1,
+        "bannerEnabled": true
+    },
+    "IAP_CATEGORY_GLOBAL_EVENT_TICKET": {
+        "category": "IAP_CATEGORY_GLOBAL_EVENT_TICKET",
+        "name": "shop_category_global_events",
+        "sortOrder": 5,
+        "bannerTitle": "shop_category_global_events",
+        "imageUrl": "https://storage.googleapis.com/events-server-release-user-assets/PGORELEASE-bc2717b6d0211ff9.jpeg",
+        "description": "live_events_shop_category_description"
+    },
+    "IAP_CATEGORY_ITEMS": {
+        "category": "IAP_CATEGORY_ITEMS",
+        "sortOrder": 9
+    },
+    "IAP_CATEGORY_POKECOINS": {
+        "category": "IAP_CATEGORY_POKECOINS",
+        "sortOrder": 17
+    },
+    "IAP_CATEGORY_STICKER": {
+        "category": "IAP_CATEGORY_STICKER",
+        "name": "shop_sticker",
+        "sortOrder": 13,
+        "displayRows": 2
+    },
+    "IAP_CATEGORY_TEAM_CHANGE": {
+        "category": "IAP_CATEGORY_TEAM_CHANGE",
+        "sortOrder": 15
+    },
+    "IAP_CATEGORY_TRANSPORTER_ENERGY": {
+        "category": "IAP_CATEGORY_TRANSPORTER_ENERGY",
+        "hidden": true
+    },
+    "IAP_CATEGORY_UPGRADES": {
+        "category": "IAP_CATEGORY_UPGRADES",
+        "sortOrder": 11
+    }
+}
