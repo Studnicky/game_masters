@@ -317,10 +317,10 @@ function pokemonSettings(key, dataArray) {
 	});
 
 	const groupedEntries = mappedEntries.reduce((grouped, mapped) => {
-		const { form, name } = mapped;
+		const { form, name, number } = mapped;
 
-		grouped[name] = grouped.hasOwnProperty(name) ? grouped[name] : {};
-		grouped[name] = { ...grouped[name], ...{ [form]: mapped } };
+		grouped[number] = grouped.hasOwnProperty(number) ? grouped[number] : {};
+		grouped[number] = { ...grouped[number], ...{ [form]: mapped } };
 
 		return grouped;
 	}, {});
