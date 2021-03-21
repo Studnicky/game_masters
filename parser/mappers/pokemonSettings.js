@@ -13,7 +13,8 @@ const FORM_NAME_MAP = {
 	PIKACHU_VS_2019: 'PIKACHU_LIBRE',
 	PIKACHU_WINTER_2020: 'PIKACHU_WINTER',
 	BULBASAUR_FALL_2019: 'BULBASAUR_HALLOWEEN',
-	CHARMANDER_FALL_2019: 'CHARMANDER_HALLOWEEN'
+	CHARMANDER_FALL_2019: 'CHARMANDER_HALLOWEEN',
+	SQUIRTLE_FALL_2019: 'SQUIRTLE_HALLOWEEN'
 };
 
 const RARITY_MAP = {
@@ -107,8 +108,13 @@ function getFormName(pokemonId, form) {
 	let formName = form ? form : 'DEFAULT';
 	//	Map directly by form map
 	formName = FORM_NAME_MAP[formName] ? FORM_NAME_MAP[formName] : formName;
-	//	Remove the pokemon name from the form name
-	formName = formName.replace(`${pokemonId}_`, '');
+
+	if (pokemonId === 'NIDORAN_FEMALE' || pokemonId === 'NIDORAN_MALE') {
+		formName = formName.replace(`NIDORAN_`, '');
+	} else {
+		//	Remove the pokemon name from the form name
+		formName = formName.replace(`${pokemonId}_`, '');
+	}
 
 	return formName;
 }
