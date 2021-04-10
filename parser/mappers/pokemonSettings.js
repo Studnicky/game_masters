@@ -1,22 +1,6 @@
 const { arrayExclude } = require('../../utils');
 const pokedexPattern = /V(\d+)_/;
 
-const FORM_NAME_MAP = {
-	MEWTWO_A: 'MEWTWO_ARMORED',
-	CHARIZARD_COPY_2019: 'CHARIZARD_CLONE',
-	BLASTOISE_COPY_2019: 'BLASTOISE_CLONE',
-	VENUSAUR_COPY_2019: 'VENUSAUR_CLONE',
-	PIKACHU_COPY_2019: 'PIKACHU_CLONE',
-	PIKACHU_FALL_2019: 'PIKACHU_HALLOWEEN',
-	PIKACHU_ADVENTURE_HAT_2020: 'PIKACHU_ADVENTURE',
-	PIKACHU_COSTUME_2020: 'PIKACHU_PINBALL',
-	PIKACHU_VS_2019: 'PIKACHU_LIBRE',
-	PIKACHU_WINTER_2020: 'PIKACHU_WINTER',
-	BULBASAUR_FALL_2019: 'BULBASAUR_HALLOWEEN',
-	CHARMANDER_FALL_2019: 'CHARMANDER_HALLOWEEN',
-	SQUIRTLE_FALL_2019: 'SQUIRTLE_HALLOWEEN'
-};
-
 const RARITY_MAP = {
 	POKEMON_RARITY_LEGENDARY: 'LEGENDARY',
 	POKEMON_RARITY_MYTHIC: 'MYTHIC',
@@ -103,22 +87,6 @@ function getnumber(templateId) {
 	return parseInt(match[1], 10);
 }
 
-function getFormName(pokemonId, form) {
-	//	If there is no form, it is 'DEFAULT'
-	let formName = form ? form : 'DEFAULT';
-	//	Map directly by form map
-	formName = FORM_NAME_MAP[formName] ? FORM_NAME_MAP[formName] : formName;
-
-	if (pokemonId === 'NIDORAN_FEMALE' || pokemonId === 'NIDORAN_MALE') {
-		formName = formName.replace(`NIDORAN_`, '');
-	} else {
-		//	Remove the pokemon name from the form name
-		formName = formName.replace(`${pokemonId}_`, '');
-	}
-
-	return formName;
-}
-
 function pokemonSetting(key, pokemonSettings) {
 	const { templateId, data } = pokemonSettings;
 	const raw = data[key];
@@ -177,7 +145,7 @@ function pokemonSetting(key, pokemonSettings) {
 	const mapped = {};
 
 	mapped.number = getnumber(templateId);
-	mapped.form = getFormName(pokemonId, form);
+	mapped.form = form ? form : 'DEFAULT';
 
 	mapped.name = pokemonId;
 	//	Form is the most unique identifier; we will index on this.
